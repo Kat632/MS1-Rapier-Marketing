@@ -25,3 +25,11 @@ h1, h2 {
     float: left;
     font-size: 280%;
 }
+
+/* main-image */
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/skyscrapers-1081737_1920.jpg') no-repeat center center;
+}
