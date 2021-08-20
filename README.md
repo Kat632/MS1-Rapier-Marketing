@@ -13,7 +13,7 @@
 *   [Features](#features)
 *   [Testing](#testing)
 *   [Technologies Used](#technologies-used)
-*   [Resources]resources
+*   [Resources](#resources)
 *   [Project barriers and the solutions](#project-barriers-and-the-solutions)
 *   [Deployment](#deployment)
 *   [Credits](#credits)
@@ -145,11 +145,12 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 **Media**
 
-*   Brand Logo from Canva[canva.com](https://www.canva.com/)
+*   Brand Logo from Canva [canva.com](https://www.canva.com/)
+*	Home page image from Pixabay [pixabay.com] (https://pixabay.com/)
 
 **Content**
 
-*   All text on the site is from the original website.
+*   All text on the site is adapted from the original website.
 
 	[https://rapiergroup.co.uk/](https://rapiergroup.co.uk/)
 
