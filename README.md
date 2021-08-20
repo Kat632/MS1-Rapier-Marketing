@@ -3,7 +3,7 @@
 # MS1 Project - Rapier Marketing
 
 ** **
-#### **Table of Contents**
+### **Table of Contents**
 
 ** **
 
@@ -26,7 +26,62 @@
 
 ** **
 
-#### **Overview**
+### **Overview**
+
+** **
+
+This website is a real-life client project for Clive Pearson of Rapier Marketing Services.  Clive is a marketing consultant specialising in SMEs and micro businesses.
+
+This website has been built using the knowledge gained from the HTML, CSS and User Centric Design modules of Code Institute's FullStack Web Development course.
+
+The live version of the website can be found __here__.
+
+** **
+
+[Return to Table of Contents](#table-of-contents)
+
+** **
+
+### **UX**
+
+** **
+
+**1. Strategy**
+To ensure the UX is simple and user-friendly, by providing easy navigation through all pages on the site.
+
+### **User stories**
+
+**Visitor Goals**
+
+* As a website visitor, I want to easily understand the main purpose of the website and learn more about the organisation.
+
+* As a website visitor, I want to be able to easily navigate through the site to find content.
+
+* As a website visitor, I want to be able to view the website clearly on any mobile device.
+
+* As a website visitor, I want to know what services are provided by the organisation.
+
+* As a website visitor, I would like to see examples of previous projects undertaken by the organisation.
+
+**Client Goals**
+
+* To have a more visually pleasing website than the current version [https://rapiergroup.co.uk/](https://rapiergroup.co.uk/).
+
+* To minimise the risk of information overload, by condensing the text into a more readable layout.
+
+* The website must represent the client and their business in a professional manner.  No visual gimmicks or massive menus.
+
+**2. Scope**
+
+
+
+** **
+
+[Return to Table of Contents](#table-of-contents)
+
+** **
+
+### **Wireframes**
 
 ** **
 
@@ -36,27 +91,7 @@
 
 ** **
 
-#### **UX**
-
-** **
-
-** **
-
-[Return to Table of Contents](#table-of-contents)
-
-** **
-
-#### **Wireframes**
-
-** **
-
-** **
-
-[Return to Table of Contents](#table-of-contents)
-
-** **
-
-#### **Features**
+### **Features**
 
 ** **
 
@@ -70,7 +105,7 @@
 
 ** **
 
-#### **Testing**
+### **Testing**
 
 ** **
 
@@ -83,7 +118,7 @@
 
 ** **
 
-#### **Technologies Used**
+### **Technologies Used**
 
 ** **
 
@@ -93,7 +128,7 @@
 
 ** **
 
-#### **Resources**
+### **Resources**
 
 ** **
 
@@ -103,7 +138,7 @@
 
 ** **
 
-#### **Project Barriers and Solutions**
+### **Project Barriers and Solutions**
 
 ** **
 
@@ -113,7 +148,7 @@
 
 ** **
 
-#### **Deployment**
+### **Deployment**
 
 ** **
 
@@ -139,7 +174,7 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 ** **
 
-#### **Credits**
+### **Credits**
 
 ** **
 
@@ -162,7 +197,7 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 ** **
 
-#### **Acknowledgements**
+### **Acknowledgements**
 
 ** **
 
