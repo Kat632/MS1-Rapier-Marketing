@@ -78,8 +78,8 @@ h1, h2 {
     height: 200px;
 
     position: absolute;
-    top: 33.3%;
-    left: 33.3%;
+    top: 33.33%;
+    left: 33.33%;
 }
 
 #cover-headlines-subtitle {
@@ -93,10 +93,16 @@ h1, h2 {
     height: 200px;
 
     position: absolute;
-    top: 66.6%;
-    left: 33.3%;
+    top: 66.66%;
+    left: 33.33%;
 }
 
+/* main paragraphs on index.html */
+
+#text-container {
+    margin: 0 auto;
+    width: 66.66%;
+}
 
 #text-container > h2 {
     margin-top: 20px;
@@ -104,5 +110,16 @@ h1, h2 {
     text-align: center;
     color: #0B2838;
     font-weight: 600;
+    line-height: 1.4em;
+}
+
+#text-container > h3 {
+    margin-top: 20px;
+    text-transform: none;
+    text-align: center;
+    color: #0B2838;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
     line-height: 1.4em;
 }
