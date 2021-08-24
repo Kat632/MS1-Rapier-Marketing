@@ -123,3 +123,32 @@ h1, h2 {
     font-size: 17px;
     line-height: 1.4em;
 }
+
+/* about-us boxes on index.html */
+
+#about-us {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+#left-box {
+    width: 33.33%;
+    float: left;
+    background-color: #0B2838;
+    height: 375px;
+}
+
+#right-box {
+    width: 33.33%;
+    float: right;
+    background-color: #0B2838;
+    height: 375px;
+}
+
+#centre-box {
+    width: 33.33%;
+    margin: 0 auto;
+    background-color: #8C0E0F;
+    height: 375px;
+}
