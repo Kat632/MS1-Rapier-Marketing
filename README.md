@@ -9,7 +9,7 @@
 
 *   [Overview](#overview)
 *   [UX](#ux)
-*   [Wireframes](#wireframes)
+*   [Design](#design)
 *   [Features](#features)
 *   [Testing](#testing)
 *   [Technologies Used](#technologies-used)
@@ -81,9 +81,12 @@ To ensure the UX is simple and user-friendly, by providing easy navigation throu
 
 ** **
 
-### **Wireframes**
+### **Design**
 
 ** **
+**Colour Scheme**
+Rapier Marketing Services is named after the owner's father, Ray Pearson.  Ray is a Chelsea Pensioner and so the colour scheme of the website has been chosen to relect the colours of the Chelsea Pensioner uniform.
+
 
 ** **
 
@@ -181,7 +184,7 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 **Media**
 
 *   Brand Logo from Canva [canva.com](https://www.canva.com/)
-*	Home page image from Pixabay [pixabay.com] (https://pixabay.com/)
+*	Home page image from Pixabay [pixabay.com](https://pixabay.com/)
 
 **Content**
 
