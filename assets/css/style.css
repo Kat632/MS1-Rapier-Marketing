@@ -50,7 +50,14 @@ h1, h2 {
     color: #8c0e0f;
 }
 
-/* main-image */
+/* hero-image-home */
+
+#hero-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 #hero-image-home {
     height: 600px;
