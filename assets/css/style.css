@@ -81,3 +81,18 @@ h1, h2 {
     top: 33.3%;
     left: 33.3%;
 }
+
+#cover-headlines-subtitle {
+
+    font-size: 130%;
+    font-family: Cabin, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+
+    width: 600px;
+    height: 200px;
+
+    position: absolute;
+    top: 66.6%;
+    left: 33.3%;
+}
