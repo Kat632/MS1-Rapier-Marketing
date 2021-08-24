@@ -64,3 +64,20 @@ h1, h2 {
     width: 100%;
     background: url('../images/skyscrapers-1081737_1920.jpg') no-repeat center center;
 }
+
+/* text over image */
+
+#cover-headlines {
+
+    font-size: 130%;
+    font-family: Cabin, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+
+    width: 600px;
+    height: 200px;
+
+    position: absolute;
+    top: 33.3%;
+    left: 33.3%;
+}
