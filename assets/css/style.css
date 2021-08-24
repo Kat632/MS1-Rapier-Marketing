@@ -96,3 +96,13 @@ h1, h2 {
     top: 66.6%;
     left: 33.3%;
 }
+
+
+#text-container > h2 {
+    margin-top: 20px;
+    text-transform: none;
+    text-align: center;
+    color: #0B2838;
+    font-weight: 600;
+    line-height: 1.4em;
+}
