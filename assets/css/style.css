@@ -130,6 +130,7 @@ h1, h2 {
     width: 100%;
     margin-top: 30px;
     display: flex;
+    color: #DBA858;
 }
 
 #left-box {
