@@ -154,6 +154,12 @@ h1, h2 {
     height: 375px;
 }
 
+/* past-projects gallery on index.html */
+
+#past-projects {
+    width: 100%
+}
+
 /* testimonials boxes on index.html */
 
 #testimonials {
