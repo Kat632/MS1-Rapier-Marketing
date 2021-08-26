@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Cabin, sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight: 500;
     color: #083248;
 }
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Cabin, sans-serif;
+    font-family: "Cabin", sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
     color: #8c0e0f;
@@ -70,7 +70,7 @@ h1, h2 {
 #cover-headlines {
 
     font-size: 130%;
-    font-family: Cabin, sans-serif;
+    font-family: "Cabin", sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
 
@@ -85,7 +85,7 @@ h1, h2 {
 #cover-headlines-subtitle {
 
     font-size: 130%;
-    font-family: Cabin, sans-serif;
+    font-family: "Cabin", sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
 
@@ -118,7 +118,7 @@ h1, h2 {
     text-transform: none;
     text-align: center;
     color: #0B2838;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 1.4em;
@@ -267,4 +267,31 @@ i.fas {
     background-color: #DBA858;
     height: 375px;
     color: #0B2838; 
+}
+
+/* footer info boxes */
+
+#infobox-content-1 {
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 50%;
+    height: 150px;
+}
+
+#infobox-content-2 {
+    display: flex;
+    float: right;
+    justify-content: center;
+    width: 50%;
+    height: 150px;
+}
+
+.title {
+    color: #8c0e0f;
+    font-family: "Cabin", Sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0px 0px 20px 0px;
 }
