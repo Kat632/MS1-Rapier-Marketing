@@ -50,6 +50,10 @@ h1, h2 {
     color: #8c0e0f;
 }
 
+.active {
+    border-bottom: 1px solid #8c0e0f;
+}
+
 /* hero-image-home */
 
 #hero-image-outer {
@@ -213,7 +217,11 @@ i.fas {
 #past-projects {
     width: 100%;
     margin-top: 37.5px;
+    margin-bottom: 37.5px;
     height: 375px;
+    text-align: center;
+    font-size: 160%;
+    font-family: "Raleway", sans-serif;
 }
 
 #image-box-left {
