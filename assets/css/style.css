@@ -212,9 +212,31 @@ i.fas {
 
 #past-projects {
     width: 100%;
-    margin-top: 75px;
+    margin-top: 37.5px;
     height: 375px;
 }
+
+#image-box-left {
+    width: 50%;
+    float: left;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+}
+
+#image-box-right {
+    width: 50%;
+    float: right;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+}
+.project-image {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+    
 
 /* testimonials boxes on index.html */
 
