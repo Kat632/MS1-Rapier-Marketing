@@ -128,12 +128,23 @@ h1, h2 {
 
 #about-us {
     width: 100%;
-    margin-top: 30px;
+    height: 375px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    text-align: center;
     color: #DBA858;
+}
+
+#centre-text {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+i.fas {
+    line-height: 100px;
 }
 
 #left-box {
@@ -141,13 +152,20 @@ h1, h2 {
     float: left;
     background-color: #0B2838;
     height: 375px;
-    text-align: center;
-    margin: 0 auto;
 }
 
 #left-box > h3 {
-    font-size: 25px;
+    font-size: 175%;
     font-weight: 600;
+    line-height: 75px;
+}
+
+#left-box > p {
+    margin-top: 25px;
+    font-size: 18px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
 }
 
 #right-box {
@@ -155,28 +173,41 @@ h1, h2 {
     float: right;
     background-color: #0B2838;
     height: 375px;
-    text-align: center;
-    margin: 0 auto;
 }
 
 #right-box > h3 {
-    font-size: 25px;
+    font-size: 175%;
     font-weight: 600;
+    line-height: 75px;
+}
+
+#right-box > p {
+    margin-top: 25px;
+    font-size: 18px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
 }
 
 #centre-box {
     width: 33.33%;
-    margin: 0 auto;
     background-color: #8C0E0F;
     height: 375px;
-    text-align: center;
 }
 
 #centre-box > h3 {
-    font-size: 25px;
+    font-size: 175%;
     font-weight: 600;
+    line-height: 75px;
 }
 
+#centre-box > p {
+    margin-top: 25px;
+    font-size: 18px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
 /* past-projects gallery on index.html */
 
 #past-projects {
