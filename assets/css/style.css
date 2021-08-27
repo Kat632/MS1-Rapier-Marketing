@@ -316,20 +316,31 @@ div.gallery {
 
 /* footer info boxes */
 
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    background-color: #fff;
+  }
+
 #infobox-content-1 {
+    font-size: 25px;
     display: flex;
     float: left;
     justify-content: center;
-    width: 50%;
-    height: 150px;
+    padding-left:80px;
+    word-spacing:20px;
 }
 
 #infobox-content-2 {
+    font-size: 25px;
     display: flex;
     float: right;
     justify-content: center;
-    width: 50%;
-    height: 150px;
+    padding-right:80px;
+    word-spacing:20px;
 }
 
 .title {
