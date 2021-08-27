@@ -22,7 +22,7 @@ h1, h2 {
     font-family: "Cabin", sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: #8c0e0f;
+    color: #0b2838;
 }
 
 #logo {
@@ -52,11 +52,11 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: #8c0e0f;
+    color: #2F5596;
 }
 
 .active {
-    border-bottom: 1px solid #8c0e0f;
+    border-bottom: 1px solid #0b2838;
 }
 
 /* hero-image-home */
@@ -84,6 +84,7 @@ h1, h2 {
 #cover-headlines-outer {
     width: 620px;
     height: 210px;
+    border: 1px solid #8c0e0f;
     background-color: rgba(221, 226, 198, 0.5);
     border-radius: 5%;
     position: absolute;
@@ -93,7 +94,7 @@ h1, h2 {
 
 #cover-headlines {
 
-    font-size: 130%;
+    font-size: 160%;
     font-family: "Cabin", sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
@@ -105,21 +106,6 @@ h1, h2 {
     text-align: center;
     align-content: center;
     flex-direction: column;
-}
-
-#cover-headlines-subtitle {
-
-    font-size: 130%;
-    font-family: "Cabin", sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-
-    width: 600px;
-    height: 200px;
-
-    position: absolute;
-    top: 66.66%;
-    left: 33.33%;
 }
 
 /* main paragraphs on index.html */
@@ -182,7 +168,7 @@ i.fas {
 }
 
 #left-box > h3 {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 600;
     line-height: 75px;
 }
@@ -203,7 +189,7 @@ i.fas {
 }
 
 #right-box > h3 {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 600;
     line-height: 75px;
 }
@@ -223,7 +209,7 @@ i.fas {
 }
 
 #centre-box > h3 {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 600;
     line-height: 75px;
 }
@@ -242,7 +228,7 @@ i.fas {
     margin-top: 37.5px;
     margin-bottom: 37.5px;
     text-align: center;
-    font-size: 160%;
+    font-size: 180%;
     font-family: "Raleway", sans-serif;
 }
 
@@ -347,11 +333,12 @@ div.gallery {
 }
 
 .title-left {
-    color: #8C0E0F;
+    color: #2F5596;
     text-decoration: underline;
-    font-family: "Cabin", Sans-serif;
-    font-size: 24px;
-    font-weight: normal;
+    font-family: "Raleway", Sans-serif;
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: bold;
     line-height: 30px;
     margin: 0px 0px 20px 0px;
 }
@@ -369,9 +356,10 @@ div.gallery {
 .title-right {
     color: #2F5596;
     text-decoration: underline;
-    font-family: "Cabin", Sans-serif;
-    font-size: 24px;
-    font-weight: normal;
+    font-family: "Raleway", Sans-serif;
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: bold;
     line-height: 30px;
     margin: 0px 0px 20px 0px;
 }
@@ -388,14 +376,13 @@ div.gallery {
 }
 
 #contact-info {
-    color: #8C0E0F;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    color: #2F5596;
+    font-family: "Cabin", sans-serif;
+    font-size: 110%;
     display: flex;
     float: left;
     justify-content: center;
     padding-left: 40px;
-    word-spacing: 20px;
     width: 50%;
 }
 
