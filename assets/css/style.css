@@ -12,6 +12,10 @@ body {
     color: #083248;
 }
 
+body, html {
+    height: 100%;
+}
+
 /* headings and logo */
 
 h1, h2 {
@@ -64,9 +68,14 @@ h1, h2 {
 }
 
 #hero-image-home {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    background: url('../images/skyscrapers-1081737_1920.jpg') no-repeat center center;
+    background: url('../images/skyscrapers-1081737_1920.jpg');
+      /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* text over image */
@@ -303,3 +312,10 @@ i.fas {
     line-height: 30px;
     margin: 0px 0px 20px 0px;
 }
+
+ /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+ @media only screen and (max-device-width: 1366px) {
+    #hero-image-home {
+      background-attachment: scroll;
+    }
+  } 

@@ -194,6 +194,8 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 **Code Snippets**
 
+*	Parallax scrolling code from W3Schools [https://www.w3schools.com/howto/howto_css_parallax.asp](https://www.w3schools.com/howto/howto_css_parallax.asp)
+
 ** **
 
 [Return to Table of Contents](#table-of-contents)
