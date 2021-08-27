@@ -196,6 +196,8 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 *	Parallax scrolling code from W3Schools [https://www.w3schools.com/howto/howto_css_parallax.asp](https://www.w3schools.com/howto/howto_css_parallax.asp)
 
+*	Responsive image gallery, adapted from code at W3Schools [https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive)
+
 ** **
 
 [Return to Table of Contents](#table-of-contents)
