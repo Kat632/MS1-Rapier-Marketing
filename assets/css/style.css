@@ -332,6 +332,17 @@ div.gallery {
     justify-content: center;
     padding-left:80px;
     word-spacing:20px;
+    width: 50%;
+}
+
+.title-left {
+    color: #8C0E0F;
+    text-decoration: underline;
+    font-family: "Cabin", Sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0px 0px 20px 0px;
 }
 
 #infobox-content-2 {
@@ -341,16 +352,42 @@ div.gallery {
     justify-content: center;
     padding-right:80px;
     word-spacing:20px;
+    width: 50%;
 }
 
-.title {
-    color: #8c0e0f;
+.title-right {
+    color: #2F5596;
+    text-decoration: underline;
     font-family: "Cabin", Sans-serif;
     font-size: 24px;
     font-weight: normal;
     line-height: 30px;
     margin: 0px 0px 20px 0px;
 }
+
+#social-media-icons {
+    color: #2F5596;
+    font-size: 25px;
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+    padding-right:80px;
+    word-spacing:20px;
+    width: 50%;
+}
+
+#contact-info {
+    color: #8C0E0F;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    padding-left: 40px;
+    word-spacing: 20px;
+    width: 50%;
+}
+
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
