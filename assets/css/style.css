@@ -9,7 +9,7 @@
 body {
     font-family: "Cabin", sans-serif;
     font-weight: 500;
-    color: #083248;
+    color: #2F5596;
 }
 
 body, html {
@@ -28,6 +28,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    color: #2F5596;
 }
 
 /* navigation links */
@@ -115,13 +116,15 @@ h1, h2 {
 #text-container {
     margin: 0 auto;
     width: 66.66%;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 #text-container > h2 {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
-    color: #0B2838;
+    color: #2F5596;
     font-weight: 600;
     line-height: 1.4em;
 }
@@ -130,7 +133,7 @@ h1, h2 {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
-    color: #0B2838;
+    color: #2F5596;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 17px;
@@ -147,7 +150,7 @@ h1, h2 {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    color: #DBA858;
+    color: #fff;
 }
 
 #centre-text {
@@ -163,7 +166,7 @@ i.fas {
 #left-box {
     width: 33.33%;
     float: left;
-    background-color: #0B2838;
+    background-color: #2F5596;
     height: 375px;
 }
 
@@ -184,7 +187,7 @@ i.fas {
 #right-box {
     width: 33.33%;
     float: right;
-    background-color: #0B2838;
+    background-color: #2F5596;
     height: 375px;
 }
 
@@ -281,7 +284,7 @@ i.fas {
 #centre-box-1 {
     width: 33.33%;
     margin: 0 auto;
-    background-color: #DBA858;
+    background-color: #9F886B;
     height: 375px;
     color: #0B2838; 
 }
@@ -314,8 +317,8 @@ i.fas {
 }
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
- @media only screen and (max-device-width: 1366px) {
-    #hero-image-home {
-      background-attachment: scroll;
-    }
-  } 
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} 
