@@ -84,9 +84,9 @@ h1, h2 {
 #cover-headlines-outer {
     width: 620px;
     height: 210px;
-    border: 1px solid #8c0e0f;
+    border: 3px solid #8c0e0f;
     background-color: rgba(221, 226, 198, 0.5);
-    border-radius: 5%;
+    border-radius: 25px;
     position: absolute;
     top: 25%;
     left: 25%;
