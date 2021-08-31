@@ -228,13 +228,14 @@ i.fas {
 }
 /* section-title on index.html */
 
-#section-title {
+.section-title {
     width: 100%;
     margin-top: 37.5px;
     margin-bottom: 37.5px;
     text-align: center;
     font-size: 180%;
     font-family: "Raleway", sans-serif;
+    color: #8c0e0f;
 }
 
 /* past-projects gallery on index.html */
