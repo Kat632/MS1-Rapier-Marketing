@@ -131,15 +131,15 @@ h1, h2 {
     line-height: 1.4em;
 }
 
-#text-container > h3 {
+#text-container > p {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
-    color: #0b2838;
+    color: #2F5596;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 17px;
-    line-height: 1.4em;
+    line-height: 1.2em;
 }
 
 /* about-us boxes on index.html */
