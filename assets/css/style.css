@@ -179,8 +179,8 @@ i.fas {
 }
 
 #left-box > p {
-    margin-top: 25px;
-    font-size: 18px;
+    margin: 20px;
+    font-size: 16px;
     display: inline-block;
     line-height: normal;
     vertical-align: middle;
@@ -200,8 +200,8 @@ i.fas {
 }
 
 #right-box > p {
-    margin-top: 25px;
-    font-size: 18px;
+    margin: 20px;
+    font-size: 16px;
     display: inline-block;
     line-height: normal;
     vertical-align: middle;
@@ -220,8 +220,8 @@ i.fas {
 }
 
 #centre-box > p {
-    margin-top: 25px;
-    font-size: 18px;
+    margin: 20px;
+    font-size: 16px;
     display: inline-block;
     line-height: normal;
     vertical-align: middle;
@@ -235,7 +235,6 @@ i.fas {
     text-align: center;
     font-size: 180%;
     font-family: "Raleway", sans-serif;
-    color:  #8c0e0f;
 }
 
 /* past-projects gallery on index.html */
@@ -293,7 +292,7 @@ div.gallery {
 
 #testimonials {
     width: 100%;
-    height: 375px;
+    height: 450px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
