@@ -462,4 +462,99 @@ div.gallery {
   .parallax {
     background-attachment: scroll;
   }
-} 
+}
+
+/* planning.html */
+
+#plan-hero-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#plan-hero-image-home {
+    height: 100%;
+    width: 100%;
+    background: url('../images/pexels-laura-tancredi-7078691.jpg');
+      /* Create parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#plan-cover-headlines-outer {
+    width: 620px;
+    height: 210px;
+    border: 3px solid #8c0e0f;
+    background-color: rgba(221, 226, 198, 0.5);
+    border-radius: 25px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#plan-cover-headlines {
+    font-size: 140%;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#plan-cover-headlines > h2 {
+    text-transform: none;
+}
+
+/* tactics.html */
+
+#tactics-hero-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#tactics-hero-image-home {
+    height: 100%;
+    width: 100%;
+    background: url('../images/pexels-sevenstorm-juhaszimrus-1603288.jpg');
+      /* Create parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tactics-cover-headlines-outer {
+    width: 620px;
+    height: 210px;
+    border: 3px solid #8c0e0f;
+    background-color: rgba(221, 226, 198, 0.5);
+    border-radius: 25px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#tactics-cover-headlines {
+    font-size: 140%;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#tactics-cover-headlines > h2 {
+    text-transform: none;
+}
+/* contact.html */
