@@ -121,7 +121,7 @@ h1, h2 {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
-    color: #2F5596;
+    color: #0b2838;
     font-weight: 600;
     line-height: 1.4em;
 }
@@ -130,7 +130,7 @@ h1, h2 {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
-    color: #2F5596;
+    color: #0b2838;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 17px;
@@ -163,7 +163,7 @@ i.fas {
 #left-box {
     width: 33.33%;
     float: left;
-    background-color: #2F5596;
+    background-color: #0b2838;
     height: 375px;
 }
 
@@ -184,7 +184,7 @@ i.fas {
 #right-box {
     width: 33.33%;
     float: right;
-    background-color: #2F5596;
+    background-color: #0b2838;
     height: 375px;
 }
 
@@ -248,6 +248,7 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+    font-size: 18px;
   }
   
   * {
@@ -284,31 +285,21 @@ div.gallery {
 
 #testimonials {
     width: 100%;
-    margin-top: 30px;
+    height: 375px;
+    margin: 0 auto;
     display: flex;
-    color: #DBA858;
-}
-
-#left-box {
-    width: 33.33%;
-    float: left;
-    background-color: #0B2838;
-    height: 375px;
-}
-
-#right-box {
-    width: 33.33%;
-    float: right;
-    background-color: #0B2838;
-    height: 375px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
 }
 
 #centre-box-1 {
     width: 33.33%;
     margin: 0 auto;
-    background-color: #9F886B;
+    background-color: #8c0e0f;
     height: 375px;
-    color: #0B2838; 
+    color: #fff;
 }
 
 /* footer info boxes */
@@ -327,20 +318,20 @@ div.gallery {
     display: flex;
     float: left;
     justify-content: center;
-    padding-left:80px;
-    word-spacing:20px;
+    padding-left: 80px;
+    word-spacing: 20px;
     width: 50%;
 }
 
 .title-left {
     color: #2F5596;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: "Raleway", Sans-serif;
     font-size: 110%;
     letter-spacing: 4px;
     font-weight: bold;
     line-height: 30px;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px 5px 0px;
 }
 
 #infobox-content-2 {
@@ -348,20 +339,20 @@ div.gallery {
     display: flex;
     float: right;
     justify-content: center;
-    padding-right:80px;
-    word-spacing:20px;
+    padding-right: 80px;
+    word-spacing: 20px;
     width: 50%;
 }
 
 .title-right {
     color: #2F5596;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: "Raleway", Sans-serif;
     font-size: 110%;
     letter-spacing: 4px;
     font-weight: bold;
     line-height: 30px;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px 5px 0px;
 }
 
 #social-media-icons {
