@@ -301,6 +301,77 @@ div.gallery {
     color: #fff;
 }
 
+#testimonials > #left-box > h3 {
+    font-size: 80%;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+#testimonials > #left-box > h4 {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+#testimonials > #centre-box > h3 {
+    font-size: 80%;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+#testimonials > #centre-box > h4 {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+#testimonials > #right-box > h3 {
+    font-size: 80%;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+#testimonials > #right-box > h4 {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+#circle-container {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg-left {
+    background: url('../images/David_Snowden.jpeg');
+    width: 125px;
+    height:125px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#circle-cover-bg-centre {
+    background: url('../images/Lynne_Greenfeather.jpeg');
+    width: 125px;
+    height: 125px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#circle-cover-bg-right {
+    background: url('../images/Jens_Pfeiffer.jpeg');
+    width: 125px;
+    height: 125px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
 /* footer info boxes */
 
 .footer {
