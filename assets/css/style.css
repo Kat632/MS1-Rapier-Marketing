@@ -511,6 +511,49 @@ div.gallery {
     text-transform: none;
 }
 
+#plan-text-container {
+    margin: 0 auto;
+    margin-bottom: 90px;
+    height: 100%;
+    width: 66.66%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#plan-text-container > h2 {
+    margin-top: 20px;
+    text-transform: none;
+    text-align: center;
+    color: #0b2838;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+#plan-text-container > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: none;
+    text-align: center;
+    color: #2F5596;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.2em;
+}
+
+.list-container {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style-type: circle;
+    color: #2F5596;
+    text-align: center;
+}
+
+
 /* tactics.html */
 
 #tactics-hero-image-outer {
@@ -557,4 +600,20 @@ div.gallery {
 #tactics-cover-headlines > h2 {
     text-transform: none;
 }
+
+table {
+    border-collapse: collapse;
+    width: 66.66%;
+    margin: 0 auto;
+}
+
+  table th {
+      height: 70px;
+  }
+  table td {
+    border: 1px solid black;
+    text-align: center;
+
+  }
+
 /* contact.html */
