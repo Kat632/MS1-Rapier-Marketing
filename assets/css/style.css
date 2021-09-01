@@ -607,13 +607,21 @@ table {
     margin: 0 auto;
 }
 
-  table th {
-      height: 70px;
-  }
-  table td {
+table th {
+    height: 70px;
+    background-color: #0b2838;
+    color: white;
+}
+  
+table td {
     border: 1px solid black;
     text-align: center;
+}
 
-  }
+/* DOESN'T WORK
+tr:nth-child {
+    background-color: 9F886B;
+}
+*/
 
 /* contact.html */
