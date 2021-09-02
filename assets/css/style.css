@@ -601,27 +601,53 @@ div.gallery {
     text-transform: none;
 }
 
-table {
-    border-collapse: collapse;
-    width: 66.66%;
-    margin: 0 auto;
+.tactics-table-container {
+    background-color: rgba(221, 226, 198, 0.5);
+    border: 3px solid #8c0e0f;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px #0b2838;
 }
 
-table th {
-    height: 70px;
-    background-color: #0b2838;
-    color: white;
+.tactics-table-container > h2 {
+    text-align: center;
+    color: #8c0e0f;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: rgba(221, 226, 198, 0.5);
+}
+
+.tactics-table-5cols {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 3em 0;
+    padding: 0;
+  }
+
+        .box :nth-child(1) { order: 1; }
+        .box :nth-child(2) { order: 2; }
+        .box :nth-child(3) { order: 3; }
+        .box :nth-child(4) { order: 4; }
+        .box :nth-child(5) { order: 5; }
+
+  .Rtable-cell {
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none;
+    border: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.Rtable-cell > h3 {
+    margin: 0;
+    border-bottom: 1px solid #8c0e0f;
+}
+
+.tactics-table-5cols > .Rtable-cell {
+      width: 20%; 
 }
   
-table td {
-    border: 1px solid black;
-    text-align: center;
-}
-
-/* DOESN'T WORK
-tr:nth-child {
-    background-color: 9F886B;
-}
-*/
 
 /* contact.html */

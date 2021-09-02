@@ -198,6 +198,8 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 *	Responsive image gallery, adapted from code at W3Schools [https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive)
 
+* Responsive table, adapted from code related to this article at CSS Tricks [https://css-tricks.com/accessible-simple-responsive-tables/](https://css-tricks.com/accessible-simple-responsive-tables/)
+
 ** **
 
 [Return to Table of Contents](#table-of-contents)
