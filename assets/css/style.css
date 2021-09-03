@@ -524,14 +524,16 @@ div.gallery {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
-    color: #0b2838;
+    color: #8c0e0f;
     font-weight: 600;
     line-height: 1.4em;
+    font-size: 180%;
+    font-weight: 700;
 }
 
 #plan-text-container > p {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-transform: none;
     text-align: center;
     color: #2F5596;
@@ -606,6 +608,7 @@ div.gallery {
     border: 3px solid #8c0e0f;
     border-radius: 25px;
     box-shadow: 10px 5px 5px #0b2838;
+    margin-top: 20px;
 }
 
 .tactics-table-container > h2 {
@@ -615,6 +618,8 @@ div.gallery {
     margin-bottom: 15px;
     padding: 15px;
     background-color: rgba(221, 226, 198, 0.5);
+    font-size: 180%;
+    font-weight: 700;
 }
 
 .tactics-table-5cols {
