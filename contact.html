@@ -34,41 +34,70 @@
     
 
         <section>
-            <div id="contact-us-page">
-                <div id="form-title">
-                    <h2>Let's Talk</h2>
-                    <h4>clive@rapiergroup.co.uk</h4>
+            <div class="form-container">
+            <div class="split left-side">
+                    <div id="form-title">
+                        <h2>Let's Talk</h2>
+                        <h4>clive@rapiergroup.co.uk</h4>
+                    </div>
                 </div>
-                
-                <div id="form">
-                    <form>
-                        <fieldset>
-                            <legend>Your details</legend>
-                            <div class="left"></div>
-                            <label for="name">Your name</label>
-                            <input type="text" name="name" id="name" required>
+              </div>
+               
+              <div class="split right-side">
+                    <div class="container">
+                        <form action="/action_page.php">
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="name">Name</label>
                             </div>
-                            <div class="right">
-                            <label for="email">Your email</label>
-                            <input type="text" name="email" id="email" required>
+                            <div class="col-75">
+                              <input type="text" id="name" name="name" placeholder="Your name..">
                             </div>
-                            <div class="bottom">
-                            <label for="subject">Your Subject</label>
-                            <input type="subject" name="subject" id="subject" required>
-                            <label for="message">Your Message</label>
-                            <input type="message" name="message" id="message" required>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="phone">Phone Number</label>
                             </div>
-                            <input type="submit" value="Submit" id="input-submit">
-                        </fieldset>
-                    </form>
-
+                            <div class="col-75">
+                              <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" id="subject" name="subject" placeholder="Subject..">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                              <label for="message">Message</label>
+                            </div>
+                            <div class="col-75">
+                              <textarea id="message" name="message" placeholder="Write something.."></textarea>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <input type="submit" value="Submit">
+                          </div>
+                        </form>
 
                 </div>
 
 
             </div>
+        </div>
+
         </section>
     </main>
+
+
+                </div>
+              </div> 
+                
+                
+                
     <footer class="footer">
         
         <div id="infobox-content-1">
