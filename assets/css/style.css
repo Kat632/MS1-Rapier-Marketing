@@ -544,13 +544,18 @@ div.gallery {
 }
 
 .list-container {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 130px;
     margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 25px;
+    background-color: rgba(221, 226, 198, 0.5);
+    border: 3px solid #8c0e0f;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px #0b2838;
 }
 
 .list {
-    list-style-type: circle;
     color: #2F5596;
     text-align: center;
 }
@@ -659,19 +664,10 @@ div.gallery {
 
  /* Split the screen in half */
 
- .form-container {
-    border: 3px solid #fff;
-    padding: 20px;
-}
-
 .split {
     width: 50%;
     float: left;
     padding: 20px;
-    border: 2px solid red;
-}  
-
- .split {
     height: 100%;
     width: 50%;
     position: relative;
@@ -685,6 +681,7 @@ div.gallery {
   .left-side {
     left: 0;
     background-color: #0b2838;
+    padding-bottom: 183px;
   }
   
   /* Control the right side */
@@ -694,7 +691,7 @@ div.gallery {
   }
 
 #form-title {
-    width: 40%;
+    width: 50%;
     height: 100%;
     padding: 50px;
     display: block;
@@ -724,6 +721,7 @@ div.gallery {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    font-family: 'Cabin', sans-serif;
   }
   
   label {
@@ -745,7 +743,7 @@ div.gallery {
   }
   
   input[type=submit]:hover {
-    background-color: #550808;
+    background-color: #e43d3d;
   }
   
   .container {
