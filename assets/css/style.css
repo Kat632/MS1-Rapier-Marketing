@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+hr {
+border-top: 3px solid #2F5596;
+}
+
 /* headings and logo */
 
 h1, h2 {
@@ -71,6 +75,9 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-image-home {
@@ -92,9 +99,10 @@ h1, h2 {
     border: 3px solid #8c0e0f;
     background-color: rgba(221, 226, 198, 0.5);
     border-radius: 25px;
+    display: flex;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    justify-content: center;
+    align-items: center;
 }
 
 #cover-headlines {
@@ -105,8 +113,8 @@ h1, h2 {
     letter-spacing: 4px;
     width: 600px;
     height: 200px;
-    position: absolute;
     display: flex;
+    position: absolute;
     justify-content: center;
     text-align: center;
     align-content: center;
@@ -118,12 +126,13 @@ h1, h2 {
 #text-container {
     margin: 0 auto;
     width: 66.66%;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 #text-container > h2 {
     margin-top: 20px;
+    margin-bottom: 20px;
     text-transform: none;
     text-align: center;
     color: #0b2838;
@@ -133,6 +142,7 @@ h1, h2 {
 
 #text-container > p {
     margin-top: 20px;
+    margin-bottom: 20px;
     text-transform: none;
     text-align: center;
     color: #2F5596;
@@ -228,14 +238,15 @@ i.fas {
 }
 /* section-title on index.html */
 
-.section-title {
-    width: 100%;
-    margin-top: 37.5px;
-    margin-bottom: 37.5px;
+.section-title > h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
     text-align: center;
-    font-size: 180%;
-    font-family: "Raleway", sans-serif;
     color: #8c0e0f;
+    line-height: 1.4em;
+    font-size: 180%;
+    font-weight: 700;
 }
 
 /* past-projects gallery on index.html */
@@ -374,7 +385,7 @@ div.gallery {
     background-position: center;
     border-radius: 50%;
 }
-
+  
 /* footer info boxes */
 
 .footer {
