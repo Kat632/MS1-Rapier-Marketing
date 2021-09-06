@@ -200,6 +200,8 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 * Responsive table, adapted from code related to this article at CSS Tricks [https://css-tricks.com/accessible-simple-responsive-tables/](https://css-tricks.com/accessible-simple-responsive-tables/)
 
+* Form styling, from code at W3Schools [https://www.w3schools.com/css/css_form.asp](https://www.w3schools.com/css/css_form.asp)
+
 ** **
 
 [Return to Table of Contents](#table-of-contents)
