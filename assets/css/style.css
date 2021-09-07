@@ -611,30 +611,42 @@ div.gallery {
 
  /* Split the screen in half */
 
+ #contact-page-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+ }
+
+  /* Split the screen in half 
 .split {
-    width: 50%;
     float: left;
     padding: 20px;
     height: 100%;
-    width: 50%;
+    width: 100%;
     position: relative;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
   }
+  */
   
   /* Control the left side */
   .left-side {
-    left: 0;
     background-color: #0b2838;
-    padding-bottom: 183px;
+    width: 50%;
+    float: left;
   }
   
   /* Control the right side */
   .right-side {
-    right: 0;
     background-color: #0b2838;
+    width: 50%;
+    float: left;
   }
 
 #form-title {
@@ -691,7 +703,7 @@ div.gallery {
   }
   
   input[type=submit]:hover {
-    background-color: #e43d3d;
+    background-color: #8c0e0f;
   }
   
   .container {
