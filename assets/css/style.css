@@ -609,8 +609,6 @@ div.gallery {
 
 /* contact.html */
 
- /* Split the screen in half */
-
  #contact-page-outer {
     height: 600px;
     width: 100%;
@@ -621,40 +619,24 @@ div.gallery {
     align-items: left;
  }
 
-  /* Split the screen in half 
-.split {
-    float: left;
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  */
-  
-  /* Control the left side */
-  .left-side {
+.contact-left-side {
+    padding-top: 50px;
+    padding-left: 100px;
     background-color: #0b2838;
     width: 50%;
     float: left;
-  }
+}
   
-  /* Control the right side */
-  .right-side {
+.contact-right-side {
+    padding-top: 50px;
+    padding-right: 50px;
     background-color: #0b2838;
     width: 50%;
     float: left;
-  }
+}
 
 #form-title {
-    width: 50%;
-    height: 100%;
-    padding: 50px;
-    display: block;
-    float: left;  
+    padding: 50px; 
 }
 
 #form-title > h2 {
