@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -252,34 +253,33 @@ i.fas {
 
 div.gallery {
     border: 1px solid #9F886B;
-  }
+}
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #0B2838;
-  }
+}
   
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
-  }
+}
   
-  div.desc {
+div.desc {
     padding: 15px;
     text-align: center;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     color: #2F5596;
-  }
+}
   
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive {
-    padding: 0 6px;
+
+.responsive {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px, 5px;
     float: left;
     width: 24.99999%;
-  }
+}
   
   @media only screen and (max-width: 700px) {
     .responsive {
