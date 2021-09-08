@@ -266,6 +266,7 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+    padding: 5px;
 }
   
 div.desc {
@@ -733,10 +734,39 @@ div.desc {
     clear: both;
   }
   
- /* Responsive layout @media queries */
+ /* Responsive layout @media queries max-width 600px */
 
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
+
+    #menu {
+        text-align: center;
+    }
+
+    .hero-image-outer {
+            height: 523px;
+            width: 100%;
+            position: relative;
+            background-position-x: left;
+            background-position-y: top;
+            background-size: 132%;
+        }
+
+        .cover-headlines-outer {
+            width: 496px;
+            height: 168px;
+            border: 3px solid #8c0e0f;
+            background-color: #e6eed6;
+            border-radius: 25px;
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    }
+    
+   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */   
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
