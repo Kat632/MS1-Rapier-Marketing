@@ -386,7 +386,7 @@ div.desc {
 }
 
 #circle-cover-bg-left {
-    background: url('../images/David_Snowden.jpeg');
+    background: url('../images/david_snowden.jpeg');
     width: 125px;
     height:125px;
     background-size: contain;
@@ -395,7 +395,7 @@ div.desc {
 }
 
 #circle-cover-bg-centre {
-    background: url('../images/Lynne_Greenfeather.jpeg');
+    background: url('../images/lynne_greenfeather.jpeg');
     width: 125px;
     height: 125px;
     background-size: contain;
@@ -404,7 +404,7 @@ div.desc {
 }
 
 #circle-cover-bg-right {
-    background: url('../images/Jens_Pfeiffer.jpeg');
+    background: url('../images/jens_pfeiffer.jpeg');
     width: 125px;
     height: 125px;
     background-size: contain;
