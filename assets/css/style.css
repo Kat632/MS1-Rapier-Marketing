@@ -778,6 +778,19 @@ div.desc {
             flex-direction: column;
         }
 
+        /* about-us boxes on index.html */
+        #about-us {
+            width: 80%;
+            height: 375px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+
     }
     
    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */   
