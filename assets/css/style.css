@@ -516,10 +516,8 @@ div.desc {
 #plan-text-container {
     margin: 0 auto;
     margin-bottom: 90px;
-    height: 100%;
     width: 66.66%;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 #plan-text-container > h2 {
@@ -577,11 +575,14 @@ div.desc {
 }
 
 .tactics-table-container {
+    max-width: 80%;
+    margin: 0 auto;
     background-color: rgba(221, 226, 198, 0.5);
     border: 3px solid #8c0e0f;
     border-radius: 25px;
     box-shadow: 10px 5px 5px #0b2838;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 90px;
 }
 
 .tactics-table-container > h2 {
@@ -596,21 +597,15 @@ div.desc {
 }
 
 .tactics-table-5cols {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 3em 0;
-    padding: 0;
-  }
+    font-family: "Raleway", sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
 
-        .box :nth-child(1) { order: 1; }
-        .box :nth-child(2) { order: 2; }
-        .box :nth-child(3) { order: 3; }
-        .box :nth-child(4) { order: 4; }
-        .box :nth-child(5) { order: 5; }
-
-  .Rtable-cell {
+.Rtable-cell {
     box-sizing: border-box;
-    flex-grow: 1;
     padding: 0.8em 1.2em;
     overflow: hidden;
     list-style: none;
