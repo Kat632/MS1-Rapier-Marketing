@@ -39,6 +39,7 @@ h1, h2 {
     float: left;
     font-size: 280%;
     color: #2F5596;
+    padding-left: 10px;
 }
 
 /* navigation links */
@@ -862,11 +863,11 @@ div.desc {
   }
 
 #infobox-content-1 {
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     float: left;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 10px;
     word-spacing: 20px;
     width: 50%;
 }
@@ -878,17 +879,17 @@ div.desc {
     font-size: 85%;
     letter-spacing: 4px;
     font-weight: 500;
-    line-height: 30px;
-    margin: 20px 0px 5px 0px;
+    line-height: 20px;
+    margin: 10px 0px 5px 0px;
     border-bottom: 1px solid #8c0e0f
 }
 
 #infobox-content-2 {
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     float: right;
     justify-content: center;
-    padding-right: 20px;
+    padding-right: 10px;
     word-spacing: 20px;
     width: 50%;
 }
@@ -900,8 +901,8 @@ div.desc {
     font-size: 85%;
     letter-spacing: 4px;
     font-weight: 500;
-    line-height: 30px;
-    margin: 20px 0px 5px 0px;
+    line-height: 20px;
+    margin: 10px 0px 5px 0px;
     border-bottom: 1px solid #8c0e0f
 }
 
