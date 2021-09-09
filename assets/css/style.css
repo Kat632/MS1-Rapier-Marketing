@@ -731,9 +731,11 @@ div.desc {
     clear: both;
   }
   
- /* Responsive layout @media queries max-width 600px */
+ /* Responsive layout @media queries max-width 568x */
 
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 320px)
+                and (max-width: 568px)
+                {
 
     #menu {
         text-align: center;
