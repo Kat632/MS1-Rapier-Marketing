@@ -373,7 +373,6 @@ div.desc {
 #right-box-testimonial > h4 {
     font-size: 80%;
     font-weight: 400;
-    margin: 5px;
 }
 
 .circle-container {
@@ -425,7 +424,7 @@ div.desc {
     background-color: #fff;
   }
 
-#infobox-content-1 {
+.infobox-content-1 {
     font-size: 25px;
     display: flex;
     float: left;
@@ -447,7 +446,7 @@ div.desc {
     border-bottom: 1px solid #8c0e0f
 }
 
-#infobox-content-2 {
+.infobox-content-2 {
     font-size: 25px;
     display: flex;
     float: right;
@@ -469,7 +468,7 @@ div.desc {
     border-bottom: 1px solid #8c0e0f
 }
 
-#social-media-icons {
+.social-media-icons {
     color: #2F5596;
     font-size: 25px;
     display: flex;
@@ -484,7 +483,7 @@ div.desc {
     color: #0b2838;
 }
 
-#contact-info {
+.contact-info {
     color: #2F5596;
     font-family: "Raleway", sans-serif;
     font-size: 110%;
@@ -516,8 +515,9 @@ div.desc {
 
 #plan-text-container {
     margin: 0 auto;
-    margin-bottom: 90px;
+    margin-bottom: 120px;
     width: 66.66%;
+    height: auto;
     padding-top: 50px;
 }
 
