@@ -539,7 +539,7 @@ div.desc {
     font-size: 120%;
 }
 
-#plan-text-container {
+.plan-text-container {
     margin: 0 auto;
     margin-bottom: 120px;
     width: 66.66%;
@@ -547,7 +547,7 @@ div.desc {
     padding-top: 50px;
 }
 
-#plan-text-container > h2 {
+.plan-text-container > h2 {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
@@ -558,7 +558,7 @@ div.desc {
     font-weight: 700;
 }
 
-#plan-text-container > p {
+.plan-text-container > p {
     margin-top: 10px;
     margin-bottom: 15px;
     text-transform: none;
@@ -599,6 +599,37 @@ div.desc {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.tactics-text-container {
+    margin: 0 auto;
+    margin-bottom: 120px;
+    width: 66.66%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.tactics-text-container > h2 {
+    margin-top: 20px;
+    text-transform: none;
+    text-align: center;
+    color: #8c0e0f;
+    font-weight: 600;
+    line-height: 1.4em;
+    font-size: 180%;
+    font-weight: 700;
+}
+
+.tactics-text-container > p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-transform: none;
+    text-align: center;
+    color: #2F5596;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.2em;
 }
 
 .tactics-table-container {
