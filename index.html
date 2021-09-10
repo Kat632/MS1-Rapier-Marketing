@@ -241,6 +241,30 @@
 
   </footer>
 
+    <!-- Code for Back to top button-->
+    <!-- This snippet of code was copied as a whole from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
 <!-- font awesome script -->
   <script src="https://kit.fontawesome.com/b3341ec0dd.js" crossorigin="anonymous"></script>
 </body>
