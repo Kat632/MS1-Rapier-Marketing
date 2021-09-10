@@ -858,7 +858,7 @@ div.desc {
     
     #left-box-testimonial {
     width: 100%;
-    height: 375px;
+    height: 420px;
     }
     
     #centre-box-testimonial {
@@ -870,6 +870,7 @@ div.desc {
     #right-box-testimonial {
     width: 100%;
     height: 420px;
+    margin-bottom: 30px;
     }
 
 /* footer info boxes - decrease font size and padding for smaller screen sizes */
@@ -940,7 +941,7 @@ div.desc {
 
         .form-title {
             text-align:left;
-            padding: none;
+            padding: 0;
         }
 
         input[type=text], select, textarea {
