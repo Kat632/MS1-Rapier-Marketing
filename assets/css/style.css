@@ -756,86 +756,65 @@ div.desc {
     clear: both;
   }
   
- /* Responsive layout @media queries max-width 599px */
+    /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}
 
-  @media screen and (max-width: 599px)
-                {
+/* Responsive layout @media queries max-width 599px */
 
-    #menu {
-        text-align: center;
+@media screen and (max-width: 599px)
+{
+
+#menu {
+    text-align: center;
+    }
+    
+.cover-headlines-outer {
+    width: 397px;
+    height: 134px;
     }
 
-    .hero-image-outer {
-            height: 523px;
-            width: 100%;
-            position: relative;
-            background-position-x: left;
-            background-position-y: top;
-            background-size: 132%;
-        }
+.cover-headlines {
+    font-size: 100%;
+    width: 377px;
+    height: 124px; 
+    }
 
-        .cover-headlines-outer {
-            width: 397px;
-            height: 134px;
-            border-radius: 25px;
-            display: flex;
-            position: absolute;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .cover-headlines {
-
-            font-size: 100%;
-            letter-spacing: 4px;
-            width: 377px;
-            height: 124px;
-            display: flex;
-            position: absolute;
-            justify-content: center;
-            text-align: center;
-            flex-direction: column;
-        }
-
-        /* about-us boxes on index.html */
-        #about-us {
-            width: 80%;
-            height: auto;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-            color: white;
-        }
+/* about-us boxes on index.html - when the screen is less than 599px wide, make the three boxes stack on top of each other instead of next to each other */
+#about-us {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    }
 
     #centre-text {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0 auto;
-}
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 auto;
+        }
 
-#left-box {
-    width: 100%;
-    height: 375px;
-    margin: 5px;
-}
+    #left-box {
+        width: 100%;
+        height: 375px;
+        }
+        
+        #right-box {
+        width: 100%;
+        height: 375px;
+        }
+        
+        #centre-box {
+        width: 100%;
+        height: 375px;
+        clear: both;
+        }
 
-#right-box {
-    width: 100%;
-    height: 375px;
-    margin: 5px;
-}
-
-#centre-box {
-    width: 100%;
-    height: 375px;
-    margin: 5px;
-    clear: both;
-}
-
-/* testimonials boxes on index.html */
+/* testimonials boxes on index.html - when the screen is less than 599px wide, make the three boxes stack on top of each other instead of next to each other */
 
 #testimonials {
     width: 80%;
@@ -843,318 +822,61 @@ div.desc {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-
-#left-box-testimonial {
+    }
+    
+    #left-box-testimonial {
+    width: 100%;
+    height: 375px;
+    }
+    
+    #centre-box-testimonial {
     width: 100%;
     height: 375px;
     margin: 5px;
-}
-
-#centre-box-testimonial {
-    width: 100%;
-    height: 375px;
-    margin: 5px;
-    clear: both;
-}
-
-#right-box-testimonial {
+    }
+    
+    #right-box-testimonial {
     width: 100%;
     height: 420px;
-    margin: 5px;
-}
+    }
 
-/* footer info boxes */
+/* footer info boxes - decrease font size and padding for smaller screen sizes */
 
 .footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
     height: auto;
-    background-color: #fff;
     padding-bottom: 10px;
-  }
-
-#infobox-content-1 {
+    }
+    
+    #infobox-content-1 {
     font-size: 20px;
-    display: flex;
-    float: left;
-    justify-content: center;
     padding-left: 10px;
-    word-spacing: 20px;
-    width: 50%;
-}
-
-.title-left {
-    color: #2F5596;
-    text-decoration: none;
-    font-family: "Cabin", Sans-serif;
-    font-size: 85%;
-    letter-spacing: 4px;
-    font-weight: 500;
+    }
+    
+    .title-left {
     line-height: 20px;
     margin: 10px 0px 5px 0px;
-    border-bottom: 1px solid #8c0e0f
-}
-
-#infobox-content-2 {
+    }
+    
+    #infobox-content-2 {
     font-size: 20px;
-    display: flex;
-    float: right;
-    justify-content: center;
     padding-right: 10px;
     word-spacing: 20px;
     width: 50%;
-}
-
-.title-right {
-    color: #2F5596;
-    text-decoration: none;
-    font-family: "Cabin", Sans-serif;
-    font-size: 85%;
-    letter-spacing: 4px;
-    font-weight: 500;
+    }
+    
+    .title-right {
     line-height: 20px;
     margin: 10px 0px 5px 0px;
-    border-bottom: 1px solid #8c0e0f
-}
-
-#social-media-icons {
-    color: #2F5596;
-    font-size: 25px;
-    display: flex;
-    float: right;
-    justify-content: space-evenly;
+    }
+    
+    #social-media-icons {
+    font-size: 20px;
     padding-right:20px;
-    word-spacing:20px;
-    width: 50%;
-}
-
-#contact-info {
-    color: #2F5596;
-    font-family: "Raleway", sans-serif;
+    }
+    
+    #contact-info {
     font-size: 90%;
-    display: flex;
-    float: left;
-    justify-content: center;
     padding-left: 20px;
-    width: 50%;
-}   
-/* Contact.html - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */   
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
- /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {
-
-#menu {
-text-align: center;
-}
-
-.hero-image-outer {
-height: 523px;
-width: 100%;
-position: relative;
-background-position-x: left;
-background-position-y: top;
-background-size: 132%;
-}
-
-.cover-headlines-outer {
-width: 397px;
-height: 134px;
-display: flex;
-position: absolute;
-justify-content: center;
-align-items: center;
-}
-
-.cover-headlines {
-
-font-size: 100%;
-font-family: "Cabin", sans-serif;
-text-transform: capitalize;
-letter-spacing: 4px;
-width: 377px;
-height: 124px;
-display: flex;
-position: absolute;
-justify-content: center;
-text-align: center;
-flex-direction: column;
-}
-
-/* about-us boxes on index.html */
-#about-us {
-width: 80%;
-height: auto;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-color: white;
-}
-
-#centre-text {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-margin: 0 auto;
-}
-
-#left-box {
-width: 100%;
-background-color: #0b2838;
-height: 375px;
-margin: 5px;
-}
-
-#right-box {
-width: 100%;
-background-color: #0b2838;
-height: 375px;
-margin: 5px;
-}
-
-#centre-box {
-width: 100%;
-background-color: #2F5596;
-height: 375px;
-margin: 5px;
-clear: both;
-}
-
-/* testimonials boxes on index.html */
-
-#testimonials {
-width: 80%;
-height: auto;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-}
-
-#left-box-testimonial {
-width: 100%;
-height: 375px;
-margin: 5px;
-}
-
-#centre-box-testimonial {
-width: 100%;
-height: 375px;
-margin: 5px;
-clear: both;
-}
-
-#right-box-testimonial {
-width: 100%;
-height: 420px;
-margin: 5px;
-}
-
-/* footer info boxes */
-
-.footer {
-position:fixed;
-bottom:0;
-left:0;
-width:100%;
-height: auto;
-background-color: #fff;
-padding-bottom: 10px;
-}
-
-#infobox-content-1 {
-font-size: 20px;
-display: flex;
-float: left;
-justify-content: center;
-padding-left: 10px;
-word-spacing: 20px;
-width: 50%;
-}
-
-.title-left {
-color: #2F5596;
-text-decoration: none;
-font-family: "Cabin", Sans-serif;
-font-size: 85%;
-letter-spacing: 4px;
-font-weight: 500;
-line-height: 20px;
-margin: 10px 0px 5px 0px;
-border-bottom: 1px solid #8c0e0f
-}
-
-#infobox-content-2 {
-font-size: 20px;
-display: flex;
-float: right;
-justify-content: center;
-padding-right: 10px;
-word-spacing: 20px;
-width: 50%;
-}
-
-.title-right {
-color: #2F5596;
-text-decoration: none;
-font-family: "Cabin", Sans-serif;
-font-size: 85%;
-letter-spacing: 4px;
-font-weight: 500;
-line-height: 20px;
-margin: 10px 0px 5px 0px;
-border-bottom: 1px solid #8c0e0f
-}
-
-#social-media-icons {
-color: #2F5596;
-font-size: 25px;
-display: flex;
-float: right;
-justify-content: space-evenly;
-padding-right: 20px;
-word-spacing: 20px;
-width: 50%;
-}
-
-#contact-info {
-color: #2F5596;
-font-family: "Raleway", sans-serif;
-font-size: 90%;
-display: flex;
-float: left;
-justify-content: center;
-padding-left: 20px;
-width: 50%;
-}
-    }
-
-
- /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {...}
- 
- /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {...}
- 
- /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {...} 
-
- /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-      background-attachment: scroll;
-    }
+    } 
+    
 }
