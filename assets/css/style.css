@@ -804,14 +804,14 @@ div.desc {
     }
     
 .cover-headlines-outer {
-    width: 397px;
-    height: 134px;
+    width: 254px;
+    height: 107px;
     }
 
 .cover-headlines {
-    font-size: 100%;
-    width: 377px;
-    height: 124px; 
+    font-size: 80%;
+    width: 234px;
+    height: 114px; 
     }
 
 /* about-us boxes on index.html - when the screen is less than 599px wide, make the three boxes stack on top of each other instead of next to each other */
