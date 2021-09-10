@@ -878,7 +878,7 @@ div.desc {
     padding-bottom: 10px;
     }
     
-    #infobox-content-1 {
+    .infobox-content-1 {
     font-size: 20px;
     padding-left: 10px;
     }
@@ -888,7 +888,7 @@ div.desc {
     margin: 10px 0px 5px 0px;
     }
     
-    #infobox-content-2 {
+    .infobox-content-2 {
     font-size: 20px;
     padding-right: 10px;
     word-spacing: 20px;
@@ -900,12 +900,12 @@ div.desc {
     margin: 10px 0px 5px 0px;
     }
     
-    #social-media-icons {
+    .social-media-icons {
     font-size: 20px;
     padding-right:20px;
     }
     
-    #contact-info {
+    .contact-info {
     font-size: 90%;
     padding-left: 20px;
     } 
