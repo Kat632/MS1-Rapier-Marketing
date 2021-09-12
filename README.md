@@ -185,19 +185,22 @@ I also added colour to the wireframes in order to show them to the client.  Havi
 
 GitPod was used to write all code in this repository and pushed via Git to GitHub.
 
-**GitHub**
+**Using Git Hub Pages**
 
-*   When viewable HTML files have been pushed to GitHub, select 'Settings' the last item in the repository navbar. 
-*   Under 'Github Pages' and 'Source' there should be a drop-down menu with 'None' selected by default.
-*   After you press the drop-down menu and select 'master', then press save.
-*   Once saved, this will shortly publish the project to GitHub Pages and the site URL will be available in the 'GitHub Pages' in 'Settings'.
+*   Navigate to the gitHub [Repository](https://github.com/Kat632/MS1-Rapier-Marketing):
+*	Click the 'Settings' Tab.
+*	Scroll down to the GitHub Pages heading.
+*	Click the Save button.
+*	Click the link to go to the live deployed page.
 
-**Local Download/Clone**
+**Run Locally**
 
-*   You can do this by opening the repository, clicking on the 'Code' button with the download icon and selecting either 'clone or download'.
-*   The Clone option provides a URL, which you can use on your desktop IDE.
-*   The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
-*   User needs to open the unzipped folder and open index.html for the homepage to populate.
+*   Navigate to the GitHub Repository:
+*	Click the Code drop down menu.
+*	Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+*	Open your developement editor of choice and open a terminal window in a directory of your choice.
+*	Use the 'git clone' command in terminal followed by the copied git URL.
+*	A clone of the project will be created locally on your machine.
 
 ** **
 
@@ -211,7 +214,8 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 **Media**
 
-*   Brand Logo from Canva [canva.com](https://www.canva.com/)
+*   Brand Logo in Favicon from Canva [canva.com](https://www.canva.com/)
+*	Favicon generated from Favicon [favicon.io](https://favicon.io/)
 *	Home page image from Pixabay [pixabay.com](https://pixabay.com/)
 *   The other two hero images are from Pexels [pexels.com](https://pexels.com)
  
@@ -249,11 +253,13 @@ I would like to thank:
 
 *	The members of my Retro Hackathon team for their encouragement and advice during my first project: [Andrew Dempsey](https://github.com/andrewdempsey2018), [Helena Johansson](https://github.com/Odden69), [John Doyle](https://github.com/Aramantos), [Patrik Österljung](https://github.com/oljung), [Yorick van den Hurk](https://github.com/nowane).
 
+** **
+
 [Return to Table of Contents](#table-of-contents)
 
 ** **
 
-#### **Support**
+### **Support**
 
 ** **
 
