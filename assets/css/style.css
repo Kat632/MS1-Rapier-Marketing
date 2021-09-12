@@ -921,7 +921,7 @@ div.desc {
     padding-left: 20px;
     }
 
-/*Tactics.html - when the screen is less than 600px wide, ......*/
+/*Tactics.html - when the screen is less than 600px wide the table rows display as a column and the table headings are hidden */
 
 th {
     display: none;
