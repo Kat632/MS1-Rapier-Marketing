@@ -229,7 +229,9 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 * Responsive table, adapted from code related to this article at CSS Tricks [https://css-tricks.com/accessible-simple-responsive-tables/](https://css-tricks.com/accessible-simple-responsive-tables/)
 
-* Form styling, from code at W3Schools [https://www.w3schools.com/css/css_form.asp](https://www.w3schools.com/css/css_form.asp)
+*	Form styling, from code at W3Schools [https://www.w3schools.com/css/css_form.asp](https://www.w3schools.com/css/css_form.asp)
+
+*	The code for the Back To Top button on index.html was copied from W3Schools [https://www.w3schools.com/howto/howto_js_scroll_to_top.asp](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
 
 ** **
 
@@ -241,9 +243,11 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 ** **
 
-I would like to thank
+I would like to thank:
 
-* My mentor
+*	My mentor [Adegbenga Adeye](https://github.com/deye9)
+
+*	The members of my Retro Hackathon team for their encouragement and advice during my first project: [Andrew Dempsey](https://github.com/andrewdempsey2018), [Helena Johansson](https://github.com/Odden69), [John Doyle](https://github.com/Aramantos), [Patrik Österljung](https://github.com/oljung), [Yorick van den Hurk](https://github.com/nowane).
 
 [Return to Table of Contents](#table-of-contents)
 
