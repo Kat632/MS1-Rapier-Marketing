@@ -967,3 +967,17 @@ td {
             font-size: 14px;
 }
 }
+
+/* Responsive layout @media queries min-width 600px and max-width 1024px */
+
+@media screen and (min-width: 600px)
+              and (max-width: 1024px) 
+{
+
+/* Tactics.html - remove padding inbetween table cells to fit the data into the table */
+   
+    .Rtable-cell {
+        padding: 0.8em, 1em;
+    }
+
+              }
