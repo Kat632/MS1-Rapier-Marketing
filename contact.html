@@ -1,113 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rapier Group Marketing Consultancy, based in Pershore, UK">
-    <meta name="keywords" content="marketing consultant, clive pearson, pershore, worcestershire">
-    <!--CREDIT: Favicon https://favicon.io/-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">  
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rapier Group | Clive Pearson</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rapier Group Marketing Consultancy, based in Pershore, UK">
+  <meta name="keywords" content="marketing consultant, clive pearson, pershore, worcestershire">
+  <!--CREDIT: Favicon https://favicon.io/-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Rapier Group | Clive Pearson</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Rapier Group</h1>
-        </a>
-        <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="planning.html">Planning</a></li>
-                    <li><a href="tactics.html">Tactics</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                </ul>
-        </nav>
-    </header>
+  <header>
+    <a href="index.html">
+      <h1 id="logo">Rapier Group</h1>
+    </a>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planning.html">Planning</a></li>
+        <li><a href="tactics.html">Tactics</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
+  <main>
 
-        <div class="contact-page-outer">         
-            <div class="contact-left-side">
-                    <div class="form-title">
-                        <h2>Let's Talk</h2>
-                        <h4>clive@rapiergroup.co.uk</h4>
-                    </div>
+    <div class="contact-page-outer">
+      <div class="contact-left-side">
+        <div class="form-title">
+          <h2>Let's Talk</h2>
+          <h4>clive@rapiergroup.co.uk</h4>
+        </div>
+      </div>
+
+      <div class="contact-right-side">
+        <div class="container">
+          <!--action for form borrowed from CI lessons-->
+          <form class="enquiry-form" action="https://formdump.codeinstitute.net/" method="POST">
+            <div class="row">
+              <div class="col-25">
+                <label for="name">Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="name" name="name" placeholder="Your name.." required="" aria-required="" />
+              </div>
             </div>
-               
-              <div class="contact-right-side">
-                    <div class="container">
-                      <!--action borrowed from CI lessons-->
-                        <form class="enquiry-form" action="https://formdump.codeinstitute.net/" method="POST">
-                          <div class="row">
-                            <div class="col-25">
-                              <label for="name">Name</label>
-                            </div>
-                            <div class="col-75">
-                              <input type="text" id="name" name="name" placeholder="Your name.." required="" aria-required="" />
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-25">
-                              <label for="email">Email</label>
-                            </div>
-                            <div class="col-75">
-                              <input type="email" id="email" name="email" placeholder="Your email address.." required="" aria-required="" />
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-25">
-                              <label for="subject">Subject</label>
-                            </div>
-                            <div class="col-75">
-                              <input type="text" id="subject" name="subject" placeholder="Subject.." required="" aria-required="" />
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-25">
-                              <label for="message">Message</label>
-                            </div>
-                            <div class="col-75">
-                              <textarea id="message" name="message" placeholder="Write something.." required="" aria-required=""></textarea>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <input type="submit" value="Submit">
-                          </div>
-                        </form>
-                    </div>
-                  </div>  
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="email" id="email" name="email" placeholder="Your email address.." required=""
+                  aria-required="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="subject" name="subject" placeholder="Subject.." required="" aria-required="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="message">Message</label>
+              </div>
+              <div class="col-75">
+                <textarea id="message" name="message" placeholder="Write something.." required=""
+                  aria-required=""></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
         </div>
-    </main>
+      </div>
+    </div>
+  </main>
 
-                
-                
-    <footer class="footer">
-        
-        <div class="infobox-content-1">
-            <h3 class="title-left">Contact</h3>
-        </div>
 
-        <div class="infobox-content-2">
-            <h3 class="title-right">Connect</h3>
-        </div>
-                
-        <div class="social-media-icons">
-            <a href="https://www.linkedin.com/company/rapier-group" target="_blank" rel="noopener" aria-label="Find us on Linkedin (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/RapierMarketing" target="_blank" rel="noopener" aria-label="Find us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com/Rapier-Marketing-102795364837812" target="_blank" rel="noopener" aria-label="Find us on Facebook (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        </div>
 
-        <div class="contact-info">
-            <p>Call Clive Pearson on 07725 323393</p>
-        </div>
+  <footer class="footer">
 
-    </footer>
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/b3341ec0dd.js" crossorigin="anonymous"></script>
+    <div class="infobox-content-1">
+      <h3 class="title-left">Contact</h3>
+    </div>
+
+    <div class="infobox-content-2">
+      <h3 class="title-right">Connect</h3>
+    </div>
+
+    <div class="social-media-icons">
+      <a href="https://www.linkedin.com/company/rapier-group" target="_blank" rel="noopener"
+        aria-label="Find us on Linkedin (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/RapierMarketing" target="_blank" rel="noopener"
+        aria-label="Find us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/Rapier-Marketing-102795364837812" target="_blank" rel="noopener"
+        aria-label="Find us on Facebook (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <div class="contact-info">
+      <p>Call Clive Pearson on 07725 323393</p>
+    </div>
+
+  </footer>
+  <!-- font awesome script -->
+  <script src="https://kit.fontawesome.com/b3341ec0dd.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

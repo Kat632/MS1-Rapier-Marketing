@@ -25,7 +25,8 @@ hr {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Cabin", sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -48,13 +49,14 @@ h1, h2 {
 }
 
 #menu li {
-    
+
     list-style-type: none;
     margin-right: 30px;
     display: inline;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -83,12 +85,12 @@ h1, h2 {
     height: 100%;
     width: 100%;
     background: url('../images/skyscrapers-1081737_1920.jpg');
-      /* Create parallax scrolling effect */
-      /* Parallax scrolling code from W3Schools https://www.w3schools.com/howto/howto_css_parallax.asp */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create parallax scrolling effect */
+    /* Parallax scrolling code from W3Schools https://www.w3schools.com/howto/howto_css_parallax.asp */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* text over image */
@@ -129,7 +131,7 @@ h1, h2 {
     padding-bottom: 25px;
 }
 
-.text-container > h2 {
+.text-container>h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: none;
@@ -139,7 +141,7 @@ h1, h2 {
     line-height: 2em;
 }
 
-.text-container > p {
+.text-container>p {
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: none;
@@ -153,7 +155,7 @@ h1, h2 {
 
 /* section-title on index.html */
 
-.section-title > h2 {
+.section-title>h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -195,13 +197,13 @@ i.fas {
     margin: 5px;
 }
 
-#left-box > h3 {
+#left-box>h3 {
     font-size: 160%;
     font-weight: 600;
     line-height: 75px;
 }
 
-#left-box > p {
+#left-box>p {
     margin: 20px;
     font-size: 18px;
     display: inline-block;
@@ -217,13 +219,13 @@ i.fas {
     margin: 5px;
 }
 
-#right-box > h3 {
+#right-box>h3 {
     font-size: 160%;
     font-weight: 600;
     line-height: 75px;
 }
 
-#right-box > p {
+#right-box>p {
     margin: 20px;
     font-size: 18px;
     display: inline-block;
@@ -238,13 +240,13 @@ i.fas {
     margin: 5px;
 }
 
-#centre-box > h3 {
+#centre-box>h3 {
     font-size: 160%;
     font-weight: 600;
     line-height: 75px;
 }
 
-#centre-box > p {
+#centre-box>p {
     margin: 20px;
     font-size: 18px;
     display: inline-block;
@@ -257,17 +259,17 @@ i.fas {
 div.gallery {
     border: 1px solid #9F886B;
 }
-  
+
 div.gallery:hover {
     border: 1px solid #0B2838;
 }
-  
+
 div.gallery img {
     width: 100%;
     height: auto;
     padding: 5px;
 }
-  
+
 div.desc {
     padding: 15px;
     text-align: center;
@@ -275,7 +277,7 @@ div.desc {
     font-family: "Raleway", sans-serif;
     color: #2F5596;
 }
-  
+
 
 .responsive {
     display: flex;
@@ -284,26 +286,26 @@ div.desc {
     float: left;
     width: 24.99999%;
 }
-  
-  @media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 700px) {
     .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+        width: 49.99999%;
+        margin: 6px 0;
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
+}
+
+@media only screen and (max-width: 500px) {
     .responsive {
-      width: 100%;
+        width: 100%;
     }
-  }
-  
-  .clearfix:after {
+}
+
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
-    
+}
+
 
 /* testimonials boxes on index.html */
 
@@ -326,13 +328,13 @@ div.desc {
     margin: 5px;
 }
 
-#left-box-testimonial > h3 {
+#left-box-testimonial>h3 {
     font-size: 80%;
     font-weight: 600;
     line-height: 55px;
 }
 
-#left-box-testimonial > h4 {
+#left-box-testimonial>h4 {
     font-size: 80%;
     font-weight: 400;
 }
@@ -344,13 +346,13 @@ div.desc {
     margin: 5px;
 }
 
-#centre-box-testimonial > h3 {
+#centre-box-testimonial>h3 {
     font-size: 80%;
     font-weight: 600;
     line-height: 55px;
 }
 
-#centre-box-testimonial > h4 {
+#centre-box-testimonial>h4 {
     font-size: 80%;
     font-weight: 400;
 }
@@ -363,13 +365,13 @@ div.desc {
     margin: 5px;
 }
 
-#right-box-testimonial > h3 {
+#right-box-testimonial>h3 {
     font-size: 80%;
     font-weight: 600;
     line-height: 55px;
 }
 
-#right-box-testimonial > h4 {
+#right-box-testimonial>h4 {
     font-size: 80%;
     font-weight: 400;
 }
@@ -388,7 +390,7 @@ div.desc {
 #circle-cover-bg-left {
     background: url('../images/david_snowden.jpeg');
     width: 125px;
-    height:125px;
+    height: 125px;
     background-size: contain;
     background-position: center;
     border-radius: 50%;
@@ -411,17 +413,17 @@ div.desc {
     background-position: center;
     border-radius: 50%;
 }
-  
+
 /* footer info boxes */
 
 .footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     height: 90px;
     background-color: #fff;
-  }
+}
 
 .infobox-content-1 {
     font-size: 25px;
@@ -473,8 +475,8 @@ div.desc {
     display: flex;
     float: right;
     justify-content: space-evenly;
-    padding-right:80px;
-    word-spacing:20px;
+    padding-right: 80px;
+    word-spacing: 20px;
     width: 50%;
 }
 
@@ -510,12 +512,12 @@ div.desc {
     cursor: pointer;
     padding: 6px;
     border-radius: 4px;
-  }
+}
 
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #8c0e0f;
     color: white;
-  }
+}
 
 
 
@@ -525,7 +527,7 @@ div.desc {
     height: 100%;
     width: 100%;
     background: url('../images/pexels-laura-tancredi-7078691.jpg');
-      /* Create parallax scrolling effect */
+    /* Create parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -545,7 +547,7 @@ div.desc {
     padding-top: 50px;
 }
 
-.plan-text-container > h2 {
+.plan-text-container>h2 {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
@@ -556,7 +558,7 @@ div.desc {
     font-weight: 700;
 }
 
-.plan-text-container > p {
+.plan-text-container>p {
     margin-top: 10px;
     margin-bottom: 15px;
     text-transform: none;
@@ -592,7 +594,7 @@ div.desc {
     height: 100%;
     width: 100%;
     background: url('../images/pexels-sevenstorm-juhaszimrus-1603288.jpg');
-      /* Create parallax scrolling effect */
+    /* Create parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -607,7 +609,7 @@ div.desc {
     padding-top: 50px;
 }
 
-.tactics-text-container > h2 {
+.tactics-text-container>h2 {
     margin-top: 20px;
     text-transform: none;
     text-align: center;
@@ -618,7 +620,7 @@ div.desc {
     font-weight: 700;
 }
 
-.tactics-text-container > p {
+.tactics-text-container>p {
     margin-top: 10px;
     margin-bottom: 15px;
     text-transform: none;
@@ -641,7 +643,7 @@ div.desc {
     margin-bottom: 90px;
 }
 
-.tactics-table-container > h2 {
+.tactics-table-container>h2 {
     text-align: center;
     color: #8c0e0f;
     margin-top: 30px;
@@ -669,26 +671,26 @@ div.desc {
     font-family: "Raleway", sans-serif;
 }
 
-.Rtable-cell > h3 {
+.Rtable-cell>h3 {
     margin: 0;
     border-bottom: 1px solid #8c0e0f;
 }
 
-.tactics-table-5cols > .Rtable-cell {
-      width: 20%; 
+.tactics-table-5cols>.Rtable-cell {
+    width: 20%;
 }
-  
+
 
 /* contact.html */
 
- .contact-page-outer {
+.contact-page-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
     display: flex;
     justify-content: left;
- }
+}
 
 .contact-left-side {
     padding-top: 50px;
@@ -697,7 +699,7 @@ div.desc {
     width: 50%;
     float: left;
 }
-  
+
 .contact-right-side {
     padding-top: 50px;
     padding-right: 50px;
@@ -707,17 +709,17 @@ div.desc {
 }
 
 .form-title {
-    padding: 50px; 
+    padding: 50px;
 }
 
-.form-title > h2 {
+.form-title>h2 {
     color: white;
     font-size: 48px;
     font-weight: 700;
-    line-height: 58px; 
+    line-height: 58px;
 }
 
-.form-title > h4 {
+.form-title>h4 {
     color: #9F886B;
     font: "Raleway", sans-serif;
     font-size: 24px;
@@ -725,19 +727,11 @@ div.desc {
 
 * {
     box-sizing: border-box;
-  }
-  
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    font-family: 'Cabin', sans-serif;
-    font-size: 16px;
-  }
+}
 
-  input[type="email"] {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -745,17 +739,27 @@ div.desc {
     resize: vertical;
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
-  }
-  
-  label {
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     font-family: "Raleway", sans-serif;
     color: #9F886B;
     font-size: 20px;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: rgba(224, 184, 192, 0.6);
     color: #0B2838;
     padding: 12px 20px;
@@ -763,132 +767,130 @@ div.desc {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #8c0e0f;
     color: white;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 5px;
     background-color: #0b2838;
     padding: 50px;
-  }
-  
-  .col-25 {
+}
+
+.col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-  }
-  
-  .col-75 {
+}
+
+.col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-    /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
     .parallax {
-      background-attachment: scroll;
+        background-attachment: scroll;
     }
 }
 
 /* Responsive layout @media queries max-width 599px */
 
-@media screen and (max-width: 599px)
-{
+@media screen and (max-width: 599px) {
 
-#menu {
-    text-align: center;
-    }
-    
-.cover-headlines-outer {
-    width: 254px;
-    height: 107px;
+    #menu {
+        text-align: center;
     }
 
-.cover-headlines {
-    font-size: 80%;
-    width: 234px;
-    height: 114px; 
+    .cover-headlines-outer {
+        width: 254px;
+        height: 107px;
     }
 
-/* footer info boxes - decrease font size and padding for smaller screen sizes */
-
-.footer {
-    height: auto;
-    padding-bottom: 10px;
+    .cover-headlines {
+        font-size: 80%;
+        width: 234px;
+        height: 114px;
     }
-    
+
+    /* footer info boxes - decrease font size and padding for smaller screen sizes */
+
+    .footer {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
     .infobox-content-1 {
-    font-size: 20px;
-    padding-left: 10px;
+        font-size: 20px;
+        padding-left: 10px;
     }
-    
+
     .title-left {
-    line-height: 20px;
-    margin: 10px 0px 5px 0px;
+        line-height: 20px;
+        margin: 10px 0px 5px 0px;
     }
-    
+
     .infobox-content-2 {
-    font-size: 20px;
-    padding-right: 10px;
-    word-spacing: 20px;
-    width: 50%;
+        font-size: 20px;
+        padding-right: 10px;
+        word-spacing: 20px;
+        width: 50%;
     }
-    
+
     .title-right {
-    line-height: 20px;
-    margin: 10px 0px 5px 0px;
+        line-height: 20px;
+        margin: 10px 0px 5px 0px;
     }
-    
+
     .social-media-icons {
-    font-size: 20px;
-    padding-right:20px;
+        font-size: 20px;
+        padding-right: 20px;
     }
-    
+
     .contact-info {
-    font-size: 90%;
-    padding-left: 20px;
+        font-size: 90%;
+        padding-left: 20px;
     }
 
-/*Tactics.html - when the screen is less than 600px wide the table rows display as a column and the table headings are hidden */
+    /*Tactics.html - when the screen is less than 600px wide the table rows display as a column and the table headings are hidden */
 
-th {
-    display: none;
-}
+    th {
+        display: none;
+    }
 
-td {
-    display: block;
-}
+    td {
+        display: block;
+    }
 }
 
 /* Responsive layout @media queries max-width 1025px */
 
-@media screen and (max-width: 1025px) 
-{
+@media screen and (max-width: 1025px) {
 
-/* Tactics.html - remove padding inbetween table cells to fit the data into the table */
-   
+    /* Tactics.html - remove padding inbetween table cells to fit the data into the table */
+
     .Rtable-cell {
         padding: 0.6em;
     }
 
-/* about-us boxes on index.html - when the screen is less than 1024px wide, make the three boxes stack on top of each other instead of next to each other */
-#about-us {
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    /* about-us boxes on index.html - when the screen is less than 1024px wide, make the three boxes stack on top of each other instead of next to each other */
+    #about-us {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     #centre-text {
@@ -896,58 +898,60 @@ td {
         flex-wrap: wrap;
         align-items: center;
         margin: 0 auto;
-        }
+    }
 
     #left-box {
         width: 100%;
         height: 450px;
         margin-bottom: 50px;
-        }
-        
-        #right-box {
+    }
+
+    #right-box {
         width: 100%;
         height: 450px;
-        }
-        
-        #centre-box {
+    }
+
+    #centre-box {
         width: 100%;
         height: 450px;
         margin-bottom: 50px;
         clear: both;
-        }
-
-/* testimonials boxes on index.html - when the screen is less than 1025px wide, make the three boxes stack on top of each other instead of next to each other */
-
-#testimonials {
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
     }
-    
+
+    /* testimonials boxes on index.html - when the screen is less than 1025px wide, make the three boxes stack on top of each other instead of next to each other */
+
+    #testimonials {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
     #left-box-testimonial {
-    width: 100%;
-    height: 420px;
+        width: 100%;
+        height: 420px;
     }
-    
+
     #centre-box-testimonial {
-    width: 100%;
-    height: 375px;
-    margin: 5px;
+        width: 100%;
+        height: 375px;
+        margin: 5px;
     }
-    
+
     #right-box-testimonial {
-    width: 100%;
-    height: 420px;
-    margin-bottom: 30px;
+        width: 100%;
+        height: 420px;
+        margin-bottom: 30px;
     }
 
 
-/* Contact.html - when the screen is less than 1025px wide, make the two columns stack on top of each other instead of next to each other */ 
-.col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
+    /* Contact.html - when the screen is less than 1025px wide, make the two columns stack on top of each other instead of next to each other */
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
     }
 
     .contact-page-outer {
@@ -955,30 +959,30 @@ td {
         width: 90%;
         margin: 0 auto;
         display: block;
-        }
-        
-        .contact-left-side {
+    }
+
+    .contact-left-side {
         width: 100%;
         height: auto;
         padding: 10px;
         float: none;
-        }
+    }
 
-        .contact-right-side {
+    .contact-right-side {
         width: 100%;
         height: auto;
         float: none;
         margin-bottom: 50px;
-        }
+    }
 
-        .form-title {
-            text-align:left;
-            padding: 0;
-        }
+    .form-title {
+        text-align: left;
+        padding: 0;
+    }
 
-        input[type=text], select, textarea {
-            font-size: 14px;
+    input[type=text],
+    select,
+    textarea {
+        font-size: 14px;
+    }
 }
-}
-
-
