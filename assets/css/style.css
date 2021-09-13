@@ -82,8 +82,10 @@ h2 {
 }
 
 #hero-image-home {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
     background: url('../images/skyscrapers-1081737_1920.jpg');
     /* Create parallax scrolling effect */
     /* Parallax scrolling code from W3Schools https://www.w3schools.com/howto/howto_css_parallax.asp */
