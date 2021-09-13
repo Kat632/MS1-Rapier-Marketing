@@ -977,7 +977,7 @@ td {
 /* Tactics.html - remove padding inbetween table cells to fit the data into the table */
    
     .Rtable-cell {
-        padding: 0.8em, 1em;
+        padding: 0.6em;
     }
 
               }
