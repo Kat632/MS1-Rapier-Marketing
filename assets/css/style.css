@@ -72,6 +72,7 @@ h2 {
 /* hero-image-home */
 
 .hero-image-outer {
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -792,19 +793,6 @@ input[type=submit]:hover {
 
 /* Image gallery on index.html */
 
-@media only screen and (max-width: 769px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1025px) {
-    #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home {
-        background-attachment: scroll;
-    }
-}
-
 /* Responsive layout @media queries max-width 599px */
 
 @media screen and (max-width: 599px)
@@ -873,6 +861,19 @@ input[type=submit]:hover {
 
     td {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1025px) {
+    #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home {
+        background-attachment: scroll;
     }
 }
 
