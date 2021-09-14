@@ -791,8 +791,6 @@ input[type=submit]:hover {
 
 /* Media Queries */
 
-/* Image gallery on index.html */
-
 /* Responsive layout @media queries max-width 599px */
 
 @media screen and (max-width: 599px) {
@@ -862,11 +860,20 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width: 769px) {
+/* Image gallery on index.html */
+
+@media only screen and (max-width: 599px) {
     .responsive {
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 992px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1025px) {
