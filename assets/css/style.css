@@ -795,12 +795,6 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 769px) {
     .responsive {
-        width: 49%;
-    }
-}
-
-@media only screen and (max-width: 599px) {
-    .responsive {
         width: 100%;
     }
 }
