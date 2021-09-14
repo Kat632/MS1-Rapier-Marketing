@@ -623,7 +623,7 @@ div.desc {
 }
 
 .tactics-table-container {
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
     background-color: rgba(221, 226, 198, 0.5);
     border: 3px solid #8c0e0f;
@@ -869,7 +869,7 @@ input[type=submit]:hover {
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1025px) {
+@media only screen and (max-width: 1025px) {
     #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home {
         background-attachment: scroll;
     }
@@ -877,23 +877,10 @@ input[type=submit]:hover {
 
 /* Responsive layout @media queries max-width 1025px */
 
-@media screen and (min-width: 599px)
-              and (max-width: 1025px)
-              and (orientation: landscape) {
+@media only screen and (min-width: 599px)
+                   and (max-width: 1025px) {
 
-    /* Tactics.html - remove padding inbetween table cells to fit the data into the table */
-
-    .tactics-table-5cols {
-        width: 95%;
-    }
-    .Rtable-cell {
-        padding: 0.6em;
-    }
-}   
-
-    @media screen and (max-width: 1025px) {
-
-    /* Tactics.html - remove padding inbetween table cells to fit the data into the table */
+    /* Tactics.html - widen table and remove padding inbetween table cells to fit the data into the table */
 
     .tactics-table-5cols {
             width: 95%;
@@ -901,8 +888,11 @@ input[type=submit]:hover {
         
     .Rtable-cell {
             padding: 0.6em;
+            font-size: 80%;
     }
 }
+
+@media only screen and (max-width: 1025px) {
 
     /* about-us boxes on index.html - when the screen is less than 1025px wide, make the three boxes stack on top of each other instead of next to each other */
     #about-us {
