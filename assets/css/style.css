@@ -289,19 +289,6 @@ div.desc {
     width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
 .clearfix:after {
     content: "";
     display: table;
@@ -802,6 +789,22 @@ input[type=submit]:hover {
     clear: both;
 }
 
+/* Media Queries */
+
+/* Image gallery on index.html */
+
+@media only screen and (max-width: 769px) {
+    .responsive {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1025px) {
     #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home {
@@ -811,7 +814,9 @@ input[type=submit]:hover {
 
 /* Responsive layout @media queries max-width 599px */
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 599px)
+              and (orientation: portrait)
+              and (orientation: landscape) {
 
     #menu {
         text-align: center;
@@ -867,7 +872,7 @@ input[type=submit]:hover {
         padding-left: 20px;
     }
 
-    /*Tactics.html - when the screen is less than 600px wide the table rows display as a column and the table headings are hidden */
+    /*Tactics.html - when the screen is less than 599px wide the table rows display as a column and the table headings are hidden */
 
     th {
         display: none;
