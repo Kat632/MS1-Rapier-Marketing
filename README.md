@@ -166,7 +166,15 @@ Due to no JavaScript functionality, apart from the Back-To-Top button as outline
 
 ** **
 
+Testing has been carried out using the following web services:
 
+*   HTML on all pages, tested clear on DAtE/TIME [The W3C Markup Validation Service](https://validator.w3.org/)
+
+*   CSS, tested clear on DAtE/TIME [The W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
+
+*   All pages pass through [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with scores of 95
+
+No further changes to the code have been made since the above dates and times.
 
 
 ** **
@@ -188,14 +196,6 @@ Due to no JavaScript functionality, apart from the Back-To-Top button as outline
 Google Fonts
 
     Google fonts are used throughout the project to import the Libre Baskerville and Cabin fonts.
-
-GitHub
-
-    GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.
-
-Git
-
-    Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
 
 Google Chrome Developer Tools
 
