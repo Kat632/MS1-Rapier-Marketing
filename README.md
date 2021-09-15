@@ -210,7 +210,7 @@ Testing has been carried out using the following web services:
 
 *   CSS, tested clear on DAtE/TIME [The W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
 
-*   All pages pass through [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with scores of 95
+*   All pages pass through [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with no major concerns, except for the empty values in the aria-required labels on the form fields.  These have been changed to aria-required="true".
 
 No further changes to the code have been made since the above dates and times.
 
