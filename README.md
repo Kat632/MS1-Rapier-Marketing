@@ -22,10 +22,6 @@
 
 ** **
 
-[Return to Table of Contents](#table-of-contents)
-
-** **
-
 ### **Overview**
 
 ** **
@@ -110,33 +106,59 @@ Please see Design section below.
 
 ** **
 
+
 **Colour Scheme**
 
 Rapier Marketing Services is named after the owner's father, Ray Pearson.  Ray is a Chelsea Pensioner and so the colour scheme of the website has been chosen to relect the colours of the Chelsea Pensioner uniform.  Clive also specified that he wanted to keep the blue colour #2F5596 of his existing logo.  I used [Coolors](https://coolors.co) to create a pallette that I thought would work well with the professional look required by the client.
 
 ![This is the pallete of colours used.](assets/images/readme-imgs/rapier_colours.png)
 
+I used EightShapes Contrast Grid to test the foreground and background colour combinations for minimum contrast compliance.
+
+![This is a screenshot of the EightShapes Contrast Grid](assets/images/readme-imgs/contrast_grid_rapier.JPG)
 
 
 **Typography**
 
 The website uses two fonts throughout.  The headers throughout the website are using the **Cabin** font while the main text is using the **Raleway** font.  Both fonts are from [Google Fonts](https://fonts.google.com/).  The fonts were chosen for their simplicity and because I am aware that sans serif fonts are better for dyslexic readers.  My information about choosing an accessible font came from [this article at Bdadyslexia](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide).
 
+
 **Imagery**
 
-Brand is important to Rapier Marketing and I wanted to ensure consistency throughout the site.  The hero images have are all of tall buildings or skyscrapers because I wanted to convey a feeling of 'reaching for the sky' and I like the sense of corporate that skyscrapers represent.
+Brand is important to Rapier Marketing and I wanted to ensure consistency throughout the site.  The hero images have are all of tall buildings or skyscrapers because I wanted to convey a feeling of 'reaching for the sky' and I like the sense of corporate ambition that skyscrapers represent.
 
 The images in the Past Projects Gallery have been provided by the client.  I would have preferred certainly the bottom row of corporate literature and brochures to be higher resolution, but unfortunately they had to be converted from pdfs and I couldn't make them any better quality.  I used [Adobe PDF Convertor](https://www.adobe.com/uk/acrobat/online/convert-pdf.html) to convert the pdfs.
 
 The images in the Testimonials section were taken from Linkedin with the kind permission of their owners.
 
+
 **Wireframes**
+
+index.html
+![Home page - index.html](assets/images/readme-imgs/rapier-wireframes_index.jpg)
+
+planning.html
+![Planning page - planning.html](assets/images/readme-imgs/rapier-wireframes_planning.jpg)
+
+tactics.html
+![Tactics page - tactics.html](assets/images/readme-imgs/rapier-wireframes_tactics.jpg)
+
+contact.html
+![Contact page - contact.html](assets/images/readme-imgs/rapier-wireframes_contact.jpg)
+
 
 **Differences to Design**
 
-In the original design, there were two buttons on each page that were meant to link to either further down the page, or to take you to a different page.  I realised that adding these buttons was not going to enhance the navigation of the site, but rather confuse it.
+*   In the original design, there were two buttons over the hero image on the home page that were meant to link to either further down the page, or to take you to a different page.  I realised that adding these buttons was not going to enhance the navigation of the site, but rather confuse it.
 
-I also added colour to the wireframes in order to show them to the client.  Having seen the wireframes, the client requested that his blue colour be used, that he wanted more white space and that I was not to use too much red in the scheme because he feels it can be seen negatively and convey the wrong message.
+*   I added colour to the wireframes in order to show them to the client.  Having seen the wireframes, the client requested that his blue colour #2F5596 be used, that he wanted more white space and that I was not to use too much red in the scheme because he feels it can be seen negatively and convey the wrong message.  This is why the What We Do and Testimonial boxes on the home page are now all blue.
+
+*   There are random icons on the wireframe images too because I was discussing which ones to use with the client and I forgot to remove them before I took the screenshots.
+
+*   On the advice of my mentor, I made the text boxes over the top of the hero images lighter and with a solid background because there was not enough contrast.
+
+*   There is a gold colour on the wireframes that I was going to use as part of the colour scheme, but I changed my mind because gold is not a colour you often see on corporate websites.
+
 
 **Limitations**
 
@@ -153,8 +175,24 @@ Due to no JavaScript functionality, apart from the Back-To-Top button as outline
 ** **
 
 
+*   This is a four page website.
+*   Each page has a site navigation bar at the top.
+*   The logo in the top left of each page will also take you back to the home page.
+*   Each page has a sticky footer with the contact details and social media icons for Rapier.  I felt that a sticky footer was a strong and always present call-to-action.
 
+*   The home page has three sections: **What We Do** which briefly explains what the company does.  **Past Projects** which showcases some of the company's previous work.  The images in this section are clickable and will open in a new tab.  **Testimonials** which has three testimonials from people the company has worked with in the  past.
+*   The home page has a Back-to-Top button because I felt it needed to for functionality.  The page is quite long and a mouse user would have to do quite a lot of scrolls to get back to the top of the page.  I could have made the navigation bar sticky, but I didn't want to have both the header and footer be sticky.  Or I could have put the navigation in the footer, but I didn't want the footer to be too big.
 
+**Responsive features**
+
+*   The **Past Projects** gallery will go into two columns and then one column on smaller screens.
+*   The **What We Do** and **Testimonials** sections will stack on top of each other on smaller screens.
+*   The table on the **Tactics** page will shrink on smaller screens and will go into one long list at less than 600px.
+*   The **Contact** page will stack into a column on smaller screens.
+
+**Features Left to Implement**
+
+In the future I would like to find a way to make this into a concertina dropdown for each heading instead of a big long list, but I was concerned about how long it would take to get it to work properly, especially being limited to HTML and CSS.
 
 ** **
 
