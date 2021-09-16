@@ -34,6 +34,9 @@ This website has been built using the knowledge gained from the HTML, CSS and Us
 
 [The live version of the website can be found here](https://kat632.github.io/MS1-Rapier-Marketing/).
 
+This is what the home page of the website looks like on various different devices.
+![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_home.JPG)
+
 ** **
 
 [Return to Table of Contents](#table-of-contents)
@@ -134,24 +137,24 @@ The images in the Testimonials section were taken from Linkedin with the kind pe
 
 **Wireframes**
 
-index.html
 ![Home page - index.html](assets/images/readme-imgs/rapier-wireframes_index.jpg)
+*index.html*
 
-planning.html
 ![Planning page - planning.html](assets/images/readme-imgs/rapier-wireframes_planning.jpg)
+*planning.html*
 
-tactics.html
 ![Tactics page - tactics.html](assets/images/readme-imgs/rapier-wireframes_tactics.jpg)
+*tactics.html*
 
-contact.html
 ![Contact page - contact.html](assets/images/readme-imgs/rapier-wireframes_contact.jpg)
+*contact.html*
 
 
 **Differences to Design**
 
 *   In the original design, there were two buttons over the hero image on the home page that were meant to link to either further down the page, or to take you to a different page.  I realised that adding these buttons was not going to enhance the navigation of the site, but rather confuse it.
 
-*   I added colour to the wireframes in order to show them to the client.  Having seen the wireframes, the client requested that his blue colour #2F5596 be used, that he wanted more white space and that I was not to use too much red in the scheme because he feels it can be seen negatively and convey the wrong message.  This is why the What We Do and Testimonial boxes on the home page are now all blue.
+*   I added colour to the wireframes in order to show them to the client.  Having seen the wireframes, the client requested that his blue colour #2F5596 be used, that he wanted more white space and that I was not to use too much red in the scheme because he feels it can be seen negatively and convey the wrong message.  This is why in the finished version of the website, the What We Do and Testimonial boxes on the home page are now all blue.
 
 *   There are random icons on the wireframe images too because I was discussing which ones to use with the client and I forgot to remove them before I took the screenshots.
 
@@ -175,13 +178,13 @@ Due to no JavaScript functionality, apart from the Back-To-Top button as outline
 ** **
 
 
-*   This is a four page website.
+*   This is a four page website: Home, Planning, Tactics and Contact.
 *   Each page has a site navigation bar at the top.
 *   The logo in the top left of each page will also take you back to the home page.
 *   Each page has a sticky footer with the contact details and social media icons for Rapier.  I felt that a sticky footer was a strong and always present call-to-action.
 
 *   The home page has three sections: **What We Do** which briefly explains what the company does.  **Past Projects** which showcases some of the company's previous work.  The images in this section are clickable and will open in a new tab.  **Testimonials** which has three testimonials from people the company has worked with in the  past.
-*   The home page has a Back-to-Top button because I felt it needed to for functionality.  The page is quite long and a mouse user would have to do quite a lot of scrolls to get back to the top of the page.  I could have made the navigation bar sticky, but I didn't want to have both the header and footer be sticky.  Or I could have put the navigation in the footer, but I didn't want the footer to be too big.
+*   The home page has a Back-to-Top button because I felt it needed to for functionality.  The page is quite long and a mouse user would have to do quite a lot of scrolls to get back to the top of the page.  I could have made the navigation bar sticky, but I didn't want to have both the header and footer be sticky.  Alternatively, I could have put the navigation in the footer, but I didn't want the footer to be too big.
 
 **Responsive features**
 
@@ -211,6 +214,8 @@ Testing has been carried out using the following web services:
 *   CSS, tested clear on DAtE/TIME [The W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
 
 *   All pages pass through [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with no major concerns, except for the empty values in the aria-required labels on the form fields.  These have been changed to aria-required="true".
+
+*   Accessibility testing using [WebAim Wave - Web Acessibility Evaluation Tool](https://wave.webaim.org/)
 
 No further changes to the code have been made since the above dates and times.
 
@@ -245,7 +250,7 @@ balsamiq Wireframes
 
 MS PAINT
 
-    The dropper tool is this program was used against the Site logo to determine the exact shade of green to be used.
+    For cropping and resizing images.
 
 Favicon
 
