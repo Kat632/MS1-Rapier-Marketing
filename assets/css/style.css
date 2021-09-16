@@ -280,7 +280,6 @@ div.desc {
     color: #2F5596;
 }
 
-
 .responsive {
     display: flex;
     flex-wrap: wrap;
@@ -509,7 +508,6 @@ div.desc {
 }
 
 
-
 /* planning.html */
 
 #plan-hero-image-home {
@@ -691,6 +689,24 @@ div.desc {
     float: left;
 }
 
+.contact-image-circle {
+        width: 200px;
+        height: 200px;
+        padding: 11.5px;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 1px;
+        border-radius: 50%;
+    }
+
+.contact-image {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
 .contact-right-side {
     padding-top: 50px;
     padding-right: 50px;
@@ -700,7 +716,7 @@ div.desc {
 }
 
 .form-title {
-    padding: 50px;
+    padding: 20px;
 }
 
 .form-title>h2 {
