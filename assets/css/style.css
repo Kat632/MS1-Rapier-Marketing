@@ -700,14 +700,14 @@ div.desc {
 }
 
 .contact-image-circle {
-        width: 200px;
-        height: 200px;
-        padding: 11.5px;
-        border-style: solid;
-        border-color: #dde2c6;
-        border-width: 1px;
-        border-radius: 50%;
-    }
+    width: 200px;
+    height: 200px;
+    padding: 11.5px;
+    border-style: solid;
+    border-color: #dde2c6;
+    border-width: 1px;
+    border-radius: 50%;
+}
 
 .contact-image {
     height: 100%;
@@ -847,6 +847,7 @@ input[type=submit]:hover {
 .text-container a {
     text-decoration: underline;
 }
+
 /* Media Queries */
 
 /* Responsive layout @media queries max-width 599px */
@@ -939,14 +940,18 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 1024px) {
     .responsive {
-      width: 48%;
-      margin: 6px 0;
+        width: 48%;
+        margin: 6px 0;
     }
-  }
+}
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1025px) {
-    #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home, #hero-image-404 {
+
+    #hero-image-home,
+    #plan-hero-image-home,
+    #tactics-hero-image-home,
+    #hero-image-404 {
         background-attachment: scroll;
     }
 }
@@ -965,18 +970,17 @@ input[type=submit]:hover {
 
 /* Responsive layout @media queries max-width 1025px */
 
-@media only screen and (min-width: 599px)
-                   and (max-width: 1025px) {
+@media only screen and (min-width: 599px) and (max-width: 1025px) {
 
     /* Tactics.html - widen table and remove padding inbetween table cells to fit the data into the table */
 
     .tactics-table-5cols {
-            width: 95%;
+        width: 95%;
     }
-        
+
     .Rtable-cell {
-            padding: 0.6em;
-            font-size: 80%;
+        padding: 0.6em;
+        font-size: 80%;
     }
 
     /*planning.html - the list box height increases slightly */
