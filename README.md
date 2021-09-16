@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Rpaier Marketing Logo](assets/images/readme-imgs/rapier_marketing_logo.png)
 
 # MS1 Project - Rapier Marketing
 
