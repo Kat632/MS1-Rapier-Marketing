@@ -92,7 +92,7 @@ h2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 /* text over image */
@@ -518,7 +518,7 @@ div.desc {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .headlines-h2 {
@@ -825,7 +825,7 @@ input[type=submit]:hover {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .text-container a {
@@ -932,6 +932,18 @@ input[type=submit]:hover {
 @media only screen and (max-width: 1025px) {
     #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home, #hero-image-404 {
         background-attachment: scroll;
+    }
+}
+
+/* Responsive layout @media queries max-width 800px */
+
+@media only screen and (max-width: 800px) {
+    .hero-image-outer {
+        height: 300px;
+    }
+
+    .text-container {
+        padding-top: 0;
     }
 }
 
