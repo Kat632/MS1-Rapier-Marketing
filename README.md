@@ -30,7 +30,7 @@ This website is a real-life client project for Clive Pearson of Rapier Marketing
 
 This website has been built using the knowledge gained from the HTML, CSS and User Centric Design modules of Code Institute's FullStack Web Development course.
 
-[The live version of the website can be found here](https://kat632.github.io/MS1-Rapier-Marketing/).
+## [The live version of the website can be found here](https://kat632.github.io/MS1-Rapier-Marketing/).
 
 This is what the Home page of the website looks like on various different devices.
 ![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_home.JPG)
@@ -215,17 +215,30 @@ In the future I would like to find a way to make this into a concertina dropdown
 ** **
 
 
+**Functionality Testing**
+
+I used Mozilla Web Developer Tools and Chrome Developer Tools throughout the project for testing and solving problems with responsiveness and style issues.
+
+**Compatibility Testing**
+
+The site has been tested across multiple virtual devices and browsers using developer tools.  Browser testing on Safari, Edge, Firefox and Chrome.
+
+The site has been tested across multiple non-virtual devices, including iphone 8 and iPad Mini 2.
+
+**Performance testing**
+
+All pages pass through [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with no major concerns, except for the empty values in the aria-required labels on the form fields.  These have been changed to aria-required="true".
+
+**Accessibility Testing**
+
+Accessibility testing using [WebAim Wave - Web Acessibility Evaluation Tool](https://wave.webaim.org/)
+
+**Code Validation**
+
 Testing has been carried out using the following web services:
 
-*   HTML on all pages, tested clear on DAtE/TIME [The W3C Markup Validation Service](https://validator.w3.org/)
-
-*   CSS, tested clear on DAtE/TIME [The W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
-
-*   All pages pass through [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with no major concerns, except for the empty values in the aria-required labels on the form fields.  These have been changed to aria-required="true".
-
-*   Accessibility testing using [WebAim Wave - Web Acessibility Evaluation Tool](https://wave.webaim.org/)
-
-No further changes to the code have been made since the above dates and times.
+HTML on all pages validated using [The W3C Markup Validation Service](https://validator.w3.org/)
+CSS validated using [The W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
 
 
 ** **
@@ -247,7 +260,9 @@ No further changes to the code have been made since the above dates and times.
 
 *   [Google Fonts](https://fonts.google.com/) - Google fonts are used throughout the project to import the Libre Baskerville and Cabin fonts.
 
-*   [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+*   [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - Google Chrome's built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+
+*   [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) - Firefox Developer Tools have been used throughout the projects for testing and debugging code.
 
 *   [balsamiq Wireframes](https://balsamiq.com/wireframes/) - This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
 
@@ -258,6 +273,8 @@ No further changes to the code have been made since the above dates and times.
 *   [AmIReponsive](http://ami.responsivedesign.is/) - This was used to make the multi device mockup in the README.
 
 *   [Adobe PDF Convertor](https://www.adobe.com/uk/acrobat/online/convert-pdf.html) - to convert the pdfs in the image gallery to jpg.
+
+*   [TinyPNG](https://tinypng.com/) - Used for all images to cut back the size of .png files.
 
 ** **
 
