@@ -13,8 +13,6 @@
 *   [Features](#features)
 *   [Testing](#testing)
 *   [Technologies Used](#technologies-used)
-*   [Resources](#resources)
-*   [Project barriers and the solutions](#project-barriers-and-the-solutions)
 *   [Deployment](#deployment)
 *   [Credits](#credits)
 *   [Acknowledgements](#acknowledgements)
@@ -34,8 +32,17 @@ This website has been built using the knowledge gained from the HTML, CSS and Us
 
 [The live version of the website can be found here](https://kat632.github.io/MS1-Rapier-Marketing/).
 
-This is what the home page of the website looks like on various different devices.
+This is what the Home page of the website looks like on various different devices.
 ![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_home.JPG)
+
+This is what the Planning page of the website looks like on various different devices.
+![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_planning.JPG)
+
+This is what the Tactics page of the website looks like on various different devices.
+![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_tactics.JPG)
+
+This is what the Contact page of the website looks like on various different devices.
+![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_contact.JPG)
 
 ** **
 
@@ -207,6 +214,7 @@ In the future I would like to find a way to make this into a concertina dropdown
 
 ** **
 
+
 Testing has been carried out using the following web services:
 
 *   HTML on all pages, tested clear on DAtE/TIME [The W3C Markup Validation Service](https://validator.w3.org/)
@@ -230,38 +238,26 @@ No further changes to the code have been made since the above dates and times.
 
 ** **
 
+
 *	HTML - This project uses HTML as the main language used to complete the structure of the website.
 
 *	CSS - This project uses custom written CSS to style the website.
 
 *	[Font Awesome](https://fontawesome.com/) - Font awesome Icons are used for the What We Do information boxes on the home page and the social media links contained in the Footer section of the website.
 
-Google Fonts
+*   [Google Fonts](https://fonts.google.com/) - Google fonts are used throughout the project to import the Libre Baskerville and Cabin fonts.
 
-    Google fonts are used throughout the project to import the Libre Baskerville and Cabin fonts.
+*   [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
 
-Google Chrome Developer Tools
+*   [balsamiq Wireframes](https://balsamiq.com/wireframes/) - This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
 
-    Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+*   [MS PAINT](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) - For cropping and resizing images.
 
-balsamiq Wireframes
+*   [Favicon](https://favicon.io/) - Favicon.io was used to make the site favicon.
 
-    This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+*   [AmIReponsive](http://ami.responsivedesign.is/) - This was used to make the multi device mockup in the README.
 
-MS PAINT
-
-    For cropping and resizing images.
-
-Favicon
-
-    Favicon.io was used to make the site favicon
-
-AmIReponsive - This was used to make the multi device mockup in the README.
-
-
-
-
-
+*   [Adobe PDF Convertor](https://www.adobe.com/uk/acrobat/online/convert-pdf.html) - to convert the pdfs in the image gallery to jpg.
 
 ** **
 
@@ -269,25 +265,6 @@ AmIReponsive - This was used to make the multi device mockup in the README.
 
 ** **
 
-### **Resources**
-
-** **
-
-** **
-
-[Return to Table of Contents](#table-of-contents)
-
-** **
-
-### **Project Barriers and Solutions**
-
-** **
-
-** **
-
-[Return to Table of Contents](#table-of-contents)
-
-** **
 
 ### **Deployment**
 
@@ -324,10 +301,10 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 **Media**
 
-*   Brand Logo in Favicon from Canva [canva.com](https://www.canva.com/)
-*	Favicon generated from Favicon [favicon.io](https://favicon.io/)
+*   Brand Logo and Favicon from Canva [canva.com](https://www.canva.com/)
 *	Home page image from Pixabay [pixabay.com](https://pixabay.com/)
 *   The other two hero images are from Pexels [pexels.com](https://pexels.com)
+*   All other images have been provided by the client.
  
 **Content**
 
@@ -357,11 +334,14 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 ** **
 
+
 I would like to thank:
 
-*	My mentor [Adegbenga Adeye](https://github.com/deye9)
+*	My mentor [Adegbenga Adeye](https://github.com/deye9).
 
 *	The members of my Retro Hackathon team for their encouragement and advice during my first project: [Andrew Dempsey](https://github.com/andrewdempsey2018), [Helena Johansson](https://github.com/Odden69), [John Doyle](https://github.com/Aramantos), [Patrik Österljung](https://github.com/oljung), [Yorick van den Hurk](https://github.com/nowane).
+
+*   Jo at **Code Institute** tutor support for advising me about my broken image gallery 15/09/21.
 
 ** **
 
@@ -372,6 +352,7 @@ I would like to thank:
 ### **Support**
 
 ** **
+
 
 If you require any help or assistance you may contact me on 
 
