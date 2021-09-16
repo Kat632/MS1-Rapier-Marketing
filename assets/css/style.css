@@ -849,6 +849,11 @@ input[type=submit]:hover {
         padding-left: 20px;
     }
 
+    /*planning.html - when the screen is less than 599px wide the list box height increases slightly */
+    .list-container {
+        width: 250px;
+        height: 175px;
+
     /*Tactics.html - when the screen is less than 599px wide the table rows display as a column and the table headings are hidden */
 
     th {
