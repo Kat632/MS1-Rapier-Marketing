@@ -570,6 +570,7 @@ div.desc {
     border: 3px solid #8c0e0f;
     border-radius: 25px;
     box-shadow: 10px 5px 5px #0b2838;
+    text-align: center;
 }
 
 .list {
@@ -852,7 +853,8 @@ input[type=submit]:hover {
     /*planning.html - when the screen is less than 599px wide the list box height increases slightly */
     .list-container {
         width: 250px;
-        height: 175px;
+        height: 150px;
+    }
 
     /*Tactics.html - when the screen is less than 599px wide the table rows display as a column and the table headings are hidden */
 
