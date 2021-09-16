@@ -814,6 +814,20 @@ input[type=submit]:hover {
 
 /* 404.html */
 
+#hero-image-404 {
+    height: 100vh;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+    background: url('../images/skyscrapers-1081737_1920.jpg');
+    /* Create parallax scrolling effect */
+    /* Parallax scrolling code from W3Schools https://www.w3schools.com/howto/howto_css_parallax.asp */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 .text-container a {
     text-decoration: underline;
 }
@@ -916,7 +930,7 @@ input[type=submit]:hover {
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1025px) {
-    #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home {
+    #hero-image-home, #plan-hero-image-home, #tactics-hero-image-home, #hero-image-404 {
         background-attachment: scroll;
     }
 }
