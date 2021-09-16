@@ -816,6 +816,10 @@ input[type=submit]:hover {
         height: 114px;
     }
 
+    .text-container {
+        padding-top: 5px;
+    }
+
     /* footer info boxes - decrease font size and padding for smaller screen sizes */
 
     .footer {
