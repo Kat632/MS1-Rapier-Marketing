@@ -689,12 +689,18 @@ div.desc {
     float: left;
 }
 
+.circle-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
 .contact-image-circle {
         width: 200px;
         height: 200px;
         padding: 11.5px;
         border-style: solid;
-        border-color: #ccc;
+        border-color: #dde2c6;
         border-width: 1px;
         border-radius: 50%;
     }
@@ -727,7 +733,7 @@ div.desc {
 }
 
 .form-title>h4 {
-    color: #9F886B;
+    color: #dde2c6;
     font-family: "Raleway", sans-serif;
     font-size: 24px;
 }
@@ -762,7 +768,7 @@ label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     font-family: "Raleway", sans-serif;
-    color: #9F886B;
+    color: #DDE2C6;
     font-size: 20px;
 }
 
@@ -818,7 +824,8 @@ input[type=submit]:hover {
 @media screen and (max-width: 599px) {
 
     #menu {
-        text-align: center;
+        text-align: left;
+        margin-left: 15px;
     }
 
     .cover-headlines-outer {
@@ -999,7 +1006,7 @@ input[type=submit]:hover {
         margin-bottom: 30px;
     }
 
-    /* Contact.html - when the screen is less than 1025px wide, make the two columns stack on top of each other instead of next to each other */
+    /* Contact.html - when the screen is less than 1025px wide, make the two columns stack on top of each other instead of next to each other and the images disappear */
     .col-25,
     .col-75,
     input[type=submit] {
@@ -1021,11 +1028,16 @@ input[type=submit]:hover {
         float: none;
     }
 
+    .circle-row {
+        display: none;
+    }
+
     .contact-right-side {
         width: 100%;
         height: auto;
         float: none;
         margin-bottom: 50px;
+        padding: 0;
     }
 
     .form-title {
