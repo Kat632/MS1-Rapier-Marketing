@@ -790,6 +790,11 @@ input[type=submit]:hover {
     clear: both;
 }
 
+/* 404.html */
+
+.text-container a {
+    text-decoration: underline;
+}
 /* Media Queries */
 
 /* Responsive layout @media queries max-width 599px */
