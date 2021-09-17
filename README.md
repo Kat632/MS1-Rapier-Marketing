@@ -3,7 +3,7 @@
 # MS1 Project - Rapier Marketing
 
 ** **
-### **Table of Contents**
+## **Table of Contents**
 
 ** **
 
@@ -20,7 +20,7 @@
 
 ** **
 
-### **Overview**
+## **Overview**
 
 ** **
 
@@ -50,9 +50,10 @@ This is what the Contact page of the website looks like on various different dev
 
 ** **
 
-### **UX**
+## **UX**
 
 ** **
+
 
 **1. Strategy**
 
@@ -112,12 +113,12 @@ Please see Design section below.
 
 ** **
 
-### **Design**
+## **Design**
 
 ** **
 
 
-**Colour Scheme**
+### **Colour Scheme**
 
 Rapier Marketing Services is named after the owner's father, Ray Pearson.  Ray is a Chelsea Pensioner and so the colour scheme of the website has been chosen to relect the colours of the Chelsea Pensioner uniform.  Clive also specified that he wanted to keep the blue colour #2F5596 of his existing logo.  I used [Coolors](https://coolors.co) to create a pallette that I thought would work well with the professional look required by the client.
 
@@ -128,12 +129,12 @@ I used EightShapes Contrast Grid to test the foreground and background colour co
 ![This is a screenshot of the EightShapes Contrast Grid](assets/images/readme-imgs/contrast_grid_rapier.JPG)
 
 
-**Typography**
+### **Typography**
 
 The website uses two fonts throughout.  The headers throughout the website are using the **Cabin** font while the main text is using the **Raleway** font.  Both fonts are from [Google Fonts](https://fonts.google.com/).  The fonts were chosen for their simplicity and because I am aware that sans serif fonts are better for dyslexic readers.  My information about choosing an accessible font came from [this article at Bdadyslexia](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide).
 
 
-**Imagery**
+### **Imagery**
 
 Brand is important to Rapier Marketing and I wanted to ensure consistency throughout the site.  The hero images have are all of tall buildings or skyscrapers because I wanted to convey a feeling of 'reaching for the sky' and I like the sense of corporate ambition that skyscrapers represent.
 
@@ -142,22 +143,26 @@ The images in the Past Projects Gallery have been provided by the client.  I wou
 The images in the Testimonials section were taken from Linkedin with the kind permission of their owners.
 
 
-**Wireframes**
+### **Wireframes**
 
-![Home page - index.html](assets/images/readme-imgs/rapier-wireframes_index.jpg)
-*index.html*
+| ![Home page - index.html](assets/images/readme-imgs/rapier-wireframes_index.jpg) |
+|:--:|
+| <b>Index.html - Wireframe created with Balsamiq</b>|
 
-![Planning page - planning.html](assets/images/readme-imgs/rapier-wireframes_planning.jpg)
-*planning.html*
+| ![Planning page - planning.html](assets/images/readme-imgs/rapier-wireframes_planning.jpg) |
+|:--:|
+| <b>Planning.html - Wireframe created with Balsamiq</b>|
 
-![Tactics page - tactics.html](assets/images/readme-imgs/rapier-wireframes_tactics.jpg)
-*tactics.html*
+| ![Tactics page - tactics.html](assets/images/readme-imgs/rapier-wireframes_tactics.jpg) |
+|:--:|
+| <b>Index.html - Wireframe created with Balsamiq</b>|
 
-![Contact page - contact.html](assets/images/readme-imgs/rapier-wireframes_contact.jpg)
-*contact.html*
+| ![Contact page - contact.html](assets/images/readme-imgs/rapier-wireframes_contact.jpg) |
+|:--:|
+| <b>Index.html - Wireframe created with Balsamiq</b>|
 
 
-**Differences to Design**
+### **Differences to Design**
 
 *   In the original design, there were two buttons over the hero image on the home page that were meant to link to either further down the page, or to take you to a different page.  I realised that adding these buttons was not going to enhance the navigation of the site, but rather confuse it.
 
@@ -170,9 +175,9 @@ The images in the Testimonials section were taken from Linkedin with the kind pe
 *   There is a gold colour on the wireframes that I was going to use as part of the colour scheme, but I changed my mind because gold is not a colour you often see on corporate websites.
 
 
-**Limitations**
+### **Limitations**
 
-Due to no JavaScript functionality, apart from the Back-To-Top button as outlined in the Features section, the contact form will not store data or send emails.
+Due to no JavaScript functionality, apart from the Back-To-Top button as outlined in the Features section, the contact form will not store data or send emails.  I did make the form go to the Code Institute formdump, but I removed it because my mentor said it wasn't an elegant way of doing it and it took you away from my website with no way of returning to it.
 
 ** **
 
@@ -180,7 +185,7 @@ Due to no JavaScript functionality, apart from the Back-To-Top button as outline
 
 ** **
 
-### **Features**
+## **Features**
 
 ** **
 
@@ -210,30 +215,30 @@ In the future I would like to find a way to make this into a concertina dropdown
 
 ** **
 
-### **Testing**
+## **Testing**
 
 ** **
 
 
-**Functionality Testing**
+## **Functionality Testing**
 
 I used Mozilla Web Developer Tools and Chrome Developer Tools throughout the project for testing and solving problems with responsiveness and style issues.
 
-**Compatibility Testing**
+## **Compatibility Testing**
 
 The site has been tested across multiple virtual devices and browsers using developer tools.  Browser testing on Safari, Edge, Firefox and Chrome.
 
 The site has been tested across multiple non-virtual devices, including iphone 8 and iPad Mini 2.
 
-**Performance testing**
+## **Performance testing**
 
 All pages pass through [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with no major concerns, except for the empty values in the aria-required labels on the form fields.  These have been changed to aria-required="true".
 
-**Accessibility Testing**
+## **Accessibility Testing**
 
 Accessibility testing using [WebAim Wave - Web Acessibility Evaluation Tool](https://wave.webaim.org/)
 
-**Code Validation**
+## **Code Validation**
 
 Testing has been carried out using the following web services:
 
@@ -247,7 +252,7 @@ CSS validated using [The W3C CSS Validation Service](http://jigsaw.w3.org/css-va
 
 ** **
 
-### **Technologies Used**
+## **Technologies Used**
 
 ** **
 
@@ -283,7 +288,7 @@ CSS validated using [The W3C CSS Validation Service](http://jigsaw.w3.org/css-va
 ** **
 
 
-### **Deployment**
+## **Deployment**
 
 ** **
 
@@ -312,24 +317,24 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 ** **
 
-### **Credits**
+## **Credits**
 
 ** **
 
-**Media**
+### **Media**
 
 *   Brand Logo and Favicon from Canva [canva.com](https://www.canva.com/)
 *	Home page image from Pixabay [pixabay.com](https://pixabay.com/)
 *   The other two hero images are from Pexels [pexels.com](https://pexels.com)
 *   All other images have been provided by the client.
  
-**Content**
+### **Content**
 
 *   All text on the site is adapted from the original website.
 
 	[https://rapiergroup.co.uk/](https://rapiergroup.co.uk/)
 
-**Code Snippets**
+### **Code Snippets**
 
 *	Parallax scrolling code from W3Schools [https://www.w3schools.com/howto/howto_css_parallax.asp](https://www.w3schools.com/howto/howto_css_parallax.asp)
 
@@ -347,14 +352,14 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 ** **
 
-### **Acknowledgements**
+## **Acknowledgements**
 
 ** **
 
 
 I would like to thank:
 
-*	My mentor [Adegbenga Adeye](https://github.com/deye9).
+*	My mentor [Adegbenga Adeye](https://github.com/deye9) for his enthusiasm, support, knowledge and excellent suggestions.
 
 *	The members of my Retro Hackathon team for their encouragement and advice during my first project: [Andrew Dempsey](https://github.com/andrewdempsey2018), [Helena Johansson](https://github.com/Odden69), [John Doyle](https://github.com/Aramantos), [Patrik Österljung](https://github.com/oljung), [Yorick van den Hurk](https://github.com/nowane).
 
@@ -366,7 +371,7 @@ I would like to thank:
 
 ** **
 
-### **Support**
+## **Support**
 
 ** **
 
