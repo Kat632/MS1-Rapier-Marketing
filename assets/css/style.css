@@ -933,20 +933,20 @@ input[type=submit]:hover {
     }
 }
 
-/* Image gallery on index.html */
+/* Image gallery on index.html - goes into 2 columns at less than 800px and 1 column at less than 500px*/
 
-@media only screen and (max-width: 599px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
     .responsive {
         width: 48%;
         margin: 6px 0;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1025px) {
