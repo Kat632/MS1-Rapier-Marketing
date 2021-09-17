@@ -664,9 +664,10 @@ div.desc {
     font-family: "Raleway", sans-serif;
 }
 
-.Rtable-cell>h3 {
+th.Rtable-cell {
     margin: 0;
     border-bottom: 1px solid #8c0e0f;
+    text-align: left;
 }
 
 .tactics-table-5cols>.Rtable-cell {
