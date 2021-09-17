@@ -1,6 +1,13 @@
-![Rpaier Marketing Logo](assets/images/readme-imgs/rapier_marketing_logo.png)
+![Rapier Marketing Logo](assets/images/readme-imgs/rapier_marketing_logo.png)
 
 # MS1 Project - Rapier Marketing
+
+** **
+
+| ![Home page - index.html](assets/images/readme-imgs/responsive_rapier_home.JPG) |
+|:--:|
+| <b>Rapier Marketing Home page displayed on different devices.</b>|
+| <b>Created using Amiresponsive. Please see [Technologies Used](#technologies-used) for details.</b>|
 
 ** **
 ## **Table of Contents**
@@ -32,17 +39,22 @@ This website has been built using the knowledge gained from the HTML, CSS and Us
 
 ## [The live version of the website can be found here](https://kat632.github.io/MS1-Rapier-Marketing/).
 
-This is what the Home page of the website looks like on various different devices.
-![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_home.JPG)
+** **
 
-This is what the Planning page of the website looks like on various different devices.
-![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_planning.JPG)
+| ![Rapier Marketing planning.html page displayed on different devices.](assets/images/readme-imgs/responsive_rapier_planning.JPG) |
+|:--:|
+| <b>Rapier Marketing planning.html page displayed on different devices.</b>|
+| <b>Created using Amiresponsive. Please see [Technologies Used](#technologies-used) for details.</b>|
 
-This is what the Tactics page of the website looks like on various different devices.
-![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_tactics.JPG)
+| ![Rapier Marketing tactics.html page displayed on different devices.](assets/images/readme-imgs/responsive_rapier_tactics.JPG) |
+|:--:|
+| <b>Rapier Marketing tactics.html page displayed on different devices.</b>|
+| <b>Created using Amiresponsive. Please see [Technologies Used](#technologies-used) for details.</b>|
 
-This is what the Contact page of the website looks like on various different devices.
-![This is what the site looks like on various mobile devices](assets/images/readme-imgs/responsive_rapier_contact.JPG)
+| ![Rapier Marketing contact.html page displayed on different devices.](assets/images/readme-imgs/responsive_rapier_contact.JPG) |
+|:--:|
+| <b>Rapier Marketing contact.html page displayed on different devices.</b>|
+| <b>Created using Amiresponsive. Please see [Technologies Used](#technologies-used) for details.</b>|
 
 ** **
 
@@ -142,24 +154,26 @@ The images in the Past Projects Gallery have been provided by the client.  I wou
 
 The images in the Testimonials section were taken from Linkedin with the kind permission of their owners.
 
+The images on the Contact page have all been taken from Clive's personal Facebook.
+
 
 ### **Wireframes**
 
 | ![Home page - index.html](assets/images/readme-imgs/rapier-wireframes_index.jpg) |
 |:--:|
-| <b>Index.html - Wireframe created with Balsamiq</b>|
+| <b>Index.html - Wireframe created with Balsamiq.  Please see [Technologies Used](#technologies-used) for details.</b>|
 
 | ![Planning page - planning.html](assets/images/readme-imgs/rapier-wireframes_planning.jpg) |
 |:--:|
-| <b>Planning.html - Wireframe created with Balsamiq</b>|
+| <b>Planning.html - Wireframe created with Balsamiq.  Please see [Technologies Used](#technologies-used) for details.</b>|
 
 | ![Tactics page - tactics.html](assets/images/readme-imgs/rapier-wireframes_tactics.jpg) |
 |:--:|
-| <b>Index.html - Wireframe created with Balsamiq</b>|
+| <b>Tactics.html - Wireframe created with Balsamiq.  Please see [Technologies Used](#technologies-used) for details.</b>|
 
 | ![Contact page - contact.html](assets/images/readme-imgs/rapier-wireframes_contact.jpg) |
 |:--:|
-| <b>Index.html - Wireframe created with Balsamiq</b>|
+| <b>Contact.html - Wireframe created with Balsamiq.  Please see [Technologies Used](#technologies-used) for details.</b>|
 
 
 ### **Differences to Design**
@@ -195,7 +209,7 @@ Due to no JavaScript functionality, apart from the Back-To-Top button as outline
 *   The logo in the top left of each page will also take you back to the home page.
 *   Each page has a sticky footer with the contact details and social media icons for Rapier.  I felt that a sticky footer was a strong and always present call-to-action.
 
-*   The home page has three sections: **What We Do** which briefly explains what the company does.  **Past Projects** which showcases some of the company's previous work.  The images in this section are clickable and will open in a new tab.  **Testimonials** which has three testimonials from people the company has worked with in the  past.
+*   The home page has three sections: **What We Do** which briefly explains what the company does.  **Past Projects** which showcases some of the company's previous work.  The images in this section are clickable and will open in a new tab.  **Testimonials** which has three testimonials from people the company has worked with in the past.
 *   The home page has a Back-to-Top button because I felt it needed to for functionality.  The page is quite long and a mouse user would have to do quite a lot of scrolls to get back to the top of the page.  I could have made the navigation bar sticky, but I didn't want to have both the header and footer be sticky.  Alternatively, I could have put the navigation in the footer, but I didn't want the footer to be too big.
 
 **Responsive features**
@@ -203,7 +217,7 @@ Due to no JavaScript functionality, apart from the Back-To-Top button as outline
 *   The **Past Projects** gallery will go into two columns and then one column on smaller screens.
 *   The **What We Do** and **Testimonials** sections will stack on top of each other on smaller screens.
 *   The table on the **Tactics** page will shrink on smaller screens and will go into one long list at less than 600px.
-*   The **Contact** page will stack into a column on smaller screens.
+*   The **Contact** page will stack into a column on smaller screens and the images will disappear.
 
 **Features Left to Implement**
 
@@ -228,7 +242,7 @@ I used Mozilla Web Developer Tools and Chrome Developer Tools throughout the pro
 
 The site has been tested across multiple virtual devices and browsers using developer tools.  Browser testing on Safari, Edge, Firefox and Chrome.
 
-The site has been tested across multiple non-virtual devices, including iphone 8 and iPad Mini 2.
+The site has been tested across multiple non-virtual devices, including iPhone 8 and iPad Mini 2.
 
 ## **Performance testing**
 
