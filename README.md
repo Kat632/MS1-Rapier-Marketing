@@ -263,6 +263,43 @@ CSS validated using [The W3C CSS Validation Service](http://jigsaw.w3.org/css-va
 
 When validating the tactics.html page, an issue was revealed in that you cannot have a h3 element as a descendant of a th element.  Therefore I had to remove the h3 element and I have restyled **th.Rtable-cell** to mimic a h3 element.
 
+## **User Testing**
+
+**Visitor Goals**
+
+> As a website visitor, I want to easily understand the main purpose of the website and learn more about the organisation.
+>
+>> The name of the business and what the company does is evident on the home page.  The different sections on the home page provide more opportunity to learn about the organisation.
+
+> As a website visitor, I want to be able to easily navigate through the site to find content.
+>
+>> Each page has a navigation bar at the top allowing the user to navigate between the pages.  Since the home page is longer than the others, a back-to-top button has been included to allow the user to quickly get back to the top of the page where the navigation bar is.
+
+> As a website visitor, I want to be able to view the website clearly on any mobile device.
+>
+>> The website is responsive at different screen widths.  For a description of the responsive features, please see [Features](#features).
+
+> As a website visitor, I want to know what services are provided by the organisation.
+>
+>> The Planning and Tactics pages provide information about the services provided by Rapier Marketing.
+
+> As a website visitor, I would like to see examples of previous projects undertaken by the organisation.
+>
+>> The Past Projects and Testimonials sections on the home page provide information about what the organisation has previously undertaken.
+
+**Client Goals**
+
+> To have a more visually pleasing website than the current version [https://rapiergroup.co.uk/](https://rapiergroup.co.uk/).
+>
+>> The client agrees that this is a far more modern and aesthetically pleasing version of their website.
+
+> To minimise the risk of information overload, by condensing the text into a more readable layout.
+>
+>> The copy has been subtly changed and rewritten in order to flow better and be less repetitive.
+
+> The website must represent the client and their business in a professional manner.  No visual gimmicks or massive menus.
+>
+>> The website is professional, it looks good.  There are no flashy or unneccessary visuals.
 
 ** **
 
