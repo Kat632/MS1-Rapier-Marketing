@@ -259,6 +259,10 @@ Testing has been carried out using the following web services:
 HTML on all pages validated using [The W3C Markup Validation Service](https://validator.w3.org/)
 CSS validated using [The W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
 
+## **Code Validation Issues**
+
+When validating the tactics.html page, an issue was revealed in that you cannot have a h3 element as a descendant of a th element.  Therefore I had to remove the h3 element and I have restyled **th.Rtable-cell** to mimic a h3 element.
+
 
 ** **
 

@@ -668,6 +668,8 @@ th.Rtable-cell {
     margin: 0;
     border-bottom: 1px solid #8c0e0f;
     text-align: left;
+    font-size: 1.17em;
+    font-weight: bold;
 }
 
 .tactics-table-5cols>.Rtable-cell {
