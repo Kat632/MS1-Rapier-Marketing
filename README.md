@@ -188,10 +188,12 @@ The images on the Contact page have all been taken from Clive's personal Faceboo
 
 *   There is a gold colour on the wireframes that I was going to use as part of the colour scheme, but I changed my mind because gold is not a colour you often see on corporate websites.
 
+*	My mentor came up with the idea of putting the images onto the contact page.  It was rather emptpy before and the decision to add the images has certainly enhanced the page.  The three images do not appear below 1025 pixels wide.
+
 
 ### **Limitations**
 
-Due to no JavaScript functionality, apart from the Back-To-Top button as outlined in the Features section, the contact form will not store data or send emails.  I did make the form go to the Code Institute formdump, but I removed it because my mentor said it wasn't an elegant way of doing it and it took you away from my website with no way of returning to it.
+Due to no JavaScript functionality, apart from the Back-To-Top button as outlined in the Features section, the contact form will not store data or send emails.  I did make the form go to the Code Institute formdump, but I removed it because my mentor said it wasn't an elegant way of doing it and it takes the visitor away from the website with no way of returning to it.
 
 ** **
 
@@ -401,6 +403,13 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 *	The code for the Back To Top button on index.html was copied from W3Schools [https://www.w3schools.com/howto/howto_js_scroll_to_top.asp](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
 
+
+### **Readme**
+
+*	I would like to mention the other readme examples I used to help me create the structure of my own:
+	-	[John Doyle](https://github.com/Aramantos/MS1-World-Wide-Web)
+	-	[Patrik Österljung](https://github.com/oljung/portfolio-project-one)
+	-	[Marcin Kli](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)  
 ** **
 
 [Return to Table of Contents](#table-of-contents)
