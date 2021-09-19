@@ -409,7 +409,8 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 *	I would like to mention the other readme examples I used to help me create the structure of my own:
 	-	[John Doyle](https://github.com/Aramantos/MS1-World-Wide-Web)
 	-	[Patrik Österljung](https://github.com/oljung/portfolio-project-one)
-	-	[Marcin Kli](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)  
+	-	[Marcin Kli](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)
+	  
 ** **
 
 [Return to Table of Contents](#table-of-contents)
