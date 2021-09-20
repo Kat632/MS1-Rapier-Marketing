@@ -265,6 +265,15 @@ CSS validated using [The W3C CSS Validation Service](http://jigsaw.w3.org/css-va
 
 When validating the tactics.html page, an issue was revealed in that you cannot have a h3 element as a descendant of a th element.  Therefore I had to remove the h3 element and I have restyled **th.Rtable-cell** to mimic a h3 element.
 
+## **Peer Code Review**
+
+At the suggestion of my mentor I submitted my code for Peer Code Review in the **Code Institute** Slack channel.  Please see the names of the reviewers below in [Acknowledgements](#acknowledgements).
+
+The results were:
+*	A bug on the 404 page whereby the Rapier Group text in the top left of the page does not link back to the home page - Fixed.
+*	A suggestion to left-align the text in the list container on planning.html, so that the bullets aren't floating separately to the text - Fixed and it looks so much better now.
+*	Consider adding more space below the table on tactics.html as it was slightly overlapped by the footer element - Fixed.
+
 ## **User Testing**
 
 **Visitor Goals**
@@ -302,6 +311,28 @@ When validating the tactics.html page, an issue was revealed in that you cannot 
 > The website must represent the client and their business in a professional manner.  No visual gimmicks or massive menus.
 >
 >> The website is professional, it looks good.  There are no flashy or unneccessary visuals.
+
+**Client Feedback**
+
+Having presented the website to the client, Clive Pearson of Rapier Marketing, I have listed below all of the feedback he gave me.  I have indicated where I have changed something based on this feedback.  All other feedback will be implemented when I eventually deploy the website to Wordpress.  I will not be doing this until I have sought permission from **Code Institute** to do so.
+
+*	The first paragraph on the home page seems unbalanced.  There should either be more text to make the two lines seem more equal in length, or less text so that it only goes over one line.
+
+*	He will provide new and more recent testimonials.
+
+*	He dislikes the background colour of the text box over the hero images.
+
+*	Look at the spacing in the boxes containing quotes.  The one on planning.html only has "Packard" on the last line and it looks a bit strange.
+
+*	The list box on planning.html - try left aligning the text - Fixed (also came up in peer code review feedback).
+
+*	Tactics.html - he would prefer the last line of the text "It is what we do!" to be on a separate line for better impact.
+
+*	Can I make the phone number dial when you click on it? - Fixed.
+
+*	Use Clive's personal Linkedin account instead of the Rapier one because he doesn't post anything on it. - Fixed.
+
+*	He will give me some different images for the gallery and also write some more descriptive captions for the images.
 
 ** **
 
@@ -401,12 +432,12 @@ GitPod was used to write all code in this repository and pushed via Git to GitHu
 
 *	Form styling, from code at W3Schools [https://www.w3schools.com/css/css_form.asp](https://www.w3schools.com/css/css_form.asp)
 
-*	The code for the Back To Top button on index.html was copied from W3Schools [https://www.w3schools.com/howto/howto_js_scroll_to_top.asp](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+*	The code for the Back To Top button on index.html was copied from W3Schools [https://www.w3schools.com/howto/howto_js_scroll_to_top.asp](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) - the idea for the Back To Top button was given to me by fellow student Helena Johansson.  Please see below in the [Acknowledgements](#acknowledgements) section.
 
 
 ### **Readme**
 
-*	I would like to mention the other readme examples I used to help me create the structure of my own:
+*	I would like to mention the other readme examples I used to help me create the structure of my own readme:
 	-	[John Doyle](https://github.com/Aramantos/MS1-World-Wide-Web)
 	-	[Patrik Österljung](https://github.com/oljung/portfolio-project-one)
 	-	[Marcin Kli](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)
@@ -429,6 +460,10 @@ I would like to thank:
 *	The members of my Retro Hackathon team for their encouragement and advice during my first project: [Andrew Dempsey](https://github.com/andrewdempsey2018), [Helena Johansson](https://github.com/Odden69), [John Doyle](https://github.com/Aramantos), [Patrik Österljung](https://github.com/oljung), [Yorick van den Hurk](https://github.com/nowane).
 
 *   Jo at **Code Institute** tutor support for advising me about my broken image gallery 15/09/21.
+
+*	Andrew Dempsey (again!) and Nick Chapman in the **Code Institute** Slack channel for peer reviewing my code.
+
+*	Last but not least, Clive Pearson for allowing me to rebuild his website in the first place.
 
 ** **
 
