@@ -1040,6 +1040,12 @@ input[type=submit]:hover {
         margin-bottom: 30px;
     }
 
+    /*planning.html - when the screen is less than 1025px the list box height increases slightly */
+    .list-container {
+        width: 250px;
+        height: 170px;
+        }
+
     /* Contact.html - when the screen is less than 1025px wide, make the two columns stack on top of each other instead of next to each other and the images disappear */
     .col-25,
     .col-75,
