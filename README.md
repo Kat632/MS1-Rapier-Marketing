@@ -463,7 +463,7 @@ I would like to thank:
 
 *	Andrew Dempsey (again!) and Nick Chapman in the **Code Institute** Slack channel for peer reviewing my code.
 
-*	Last but not least, Clive Pearson for allowing me to rebuild his website in the first place.
+*	Last but not least, Clive Pearson for allowing me to rebuild his website in the first place and for spending the time to review what I have built in order to give me comprehensive feedback.
 
 ** **
 
